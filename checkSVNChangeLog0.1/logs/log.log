@@ -1,0 +1,199 @@
+2016-07-21 16:17:44  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 16:17:47  [ main:2781 ] - [ INFO ]  end getAllSVNFileandversion.
+2016-07-21 16:18:14  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 16:20:16  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 16:20:17  [ main:607 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/.classpath
+2016-07-21 16:20:18  [ main:1424 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/.project
+2016-07-21 16:20:19  [ main:2677 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/.classpath
+2016-07-21 16:20:19  [ main:3336 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/.project
+2016-07-21 16:20:21  [ main:4539 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/.settings/org.eclipse.core.resources.prefs
+2016-07-21 16:20:25  [ main:9225 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/db/BasicDao.java
+2016-07-21 16:20:26  [ main:9886 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/db/PoolManInit.java
+2016-07-21 16:20:27  [ main:10542 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/db/package-info.java
+2016-07-21 16:20:28  [ main:11749 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/exception/DBException.java
+2016-07-21 16:20:29  [ main:12495 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/exception/package-info.java
+2016-07-21 16:20:30  [ main:13720 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/lib/AppParametersLib.java
+2016-07-21 16:20:30  [ main:14321 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/lib/JMSLib.java
+2016-07-21 16:20:31  [ main:15312 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/lib/OperationLib.java
+2016-07-21 16:20:32  [ main:15921 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/lib/package-info.java
+2016-07-21 16:20:33  [ main:17174 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/message/MessageSender.java
+2016-07-21 16:20:34  [ main:17792 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/message/package-info.java
+2016-07-21 16:20:35  [ main:18966 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/util/DateUtil.java
+2016-07-21 16:20:36  [ main:19582 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/util/InitParam.java
+2016-07-21 16:20:36  [ main:20202 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/util/StringUtil.java
+2016-07-21 16:20:37  [ main:20822 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/util/XmlReader.java
+2016-07-21 16:20:38  [ main:21409 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/util/package-info.java
+2016-07-21 16:20:39  [ main:23225 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/work/dao/AlarmDao.java
+2016-07-21 16:20:40  [ main:23839 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/work/dao/package-info.java
+2016-07-21 16:20:41  [ main:25370 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/work/itf/AlarmItf.java
+2016-07-21 16:20:42  [ main:26317 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/work/itf/package-info.java
+2016-07-21 16:20:43  [ main:27351 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/work/package-info.java
+2016-07-21 16:24:13  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 16:24:13  [ main:735 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/.classpath
+2016-07-21 16:24:14  [ main:1397 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/.project
+2016-07-21 16:24:16  [ main:2801 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/.classpath
+2016-07-21 16:24:16  [ main:3474 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/.project
+2016-07-21 16:24:17  [ main:4681 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/.settings/org.eclipse.core.resources.prefs
+2016-07-21 16:24:32  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 16:24:33  [ main:1273 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/.classpath
+2016-07-21 16:24:33  [ main:1985 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/.project
+2016-07-21 16:24:35  [ main:3359 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/.settings/org.eclipse.core.resources.prefs
+2016-07-21 16:24:40  [ main:8854 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/db/BasicDao.java
+2016-07-21 16:24:41  [ main:9541 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/db/PoolManInit.java
+2016-07-21 16:24:42  [ main:10212 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/db/package-info.java
+2016-07-21 16:24:44  [ main:12398 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/exception/DBException.java
+2016-07-21 16:24:45  [ main:13269 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/exception/package-info.java
+2016-07-21 16:24:46  [ main:14536 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/lib/AppParametersLib.java
+2016-07-21 16:24:47  [ main:15302 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/lib/JMSLib.java
+2016-07-21 16:24:47  [ main:15951 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/lib/OperationLib.java
+2016-07-21 16:24:48  [ main:16628 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/lib/package-info.java
+2016-07-21 16:24:57  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 16:24:59  [ main:1320 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/.classpath
+2016-07-21 16:24:59  [ main:2066 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/.project
+2016-07-21 16:25:03  [ main:6068 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/.settings/org.eclipse.core.resources.prefs
+2016-07-21 16:25:47  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 16:26:23  [ main:36253 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/.classpath
+2016-07-21 16:26:25  [ main:37638 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/.project
+2016-07-21 16:26:26  [ main:39095 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/.settings/org.eclipse.core.resources.prefs
+2016-07-21 16:28:41  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 16:28:43  [ main:1971 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/.settings/org.eclipse.core.resources.prefs
+2016-07-21 16:28:49  [ main:7361 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/db/BasicDao.java
+2016-07-21 16:28:49  [ main:8055 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/db/PoolManInit.java
+2016-07-21 16:28:50  [ main:8683 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/db/package-info.java
+2016-07-21 16:28:51  [ main:10025 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/exception/DBException.java
+2016-07-21 16:28:52  [ main:10792 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/exception/package-info.java
+2016-07-21 16:28:53  [ main:12089 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/lib/AppParametersLib.java
+2016-07-21 16:28:54  [ main:12755 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/lib/JMSLib.java
+2016-07-21 16:28:55  [ main:13422 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/lib/OperationLib.java
+2016-07-21 16:29:17  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 16:29:18  [ main:755 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/.classpath
+2016-07-21 16:29:18  [ main:1365 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/.project
+2016-07-21 16:29:19  [ main:2019 ] - [ INFO ]  end getAllSVNFileandversion.
+2016-07-21 16:42:51  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 16:42:55  [ main:3911 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/.settings/org.eclipse.core.resources.prefs
+2016-07-21 16:43:04  [ main:13270 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/db/BasicDao.java
+2016-07-21 16:43:05  [ main:13996 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/db/PoolManInit.java
+2016-07-21 16:43:06  [ main:14915 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/db/package-info.java
+2016-07-21 16:43:10  [ main:18647 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/exception/DBException.java
+2016-07-21 16:43:10  [ main:19282 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/exception/package-info.java
+2016-07-21 16:43:12  [ main:21018 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/lib/AppParametersLib.java
+2016-07-21 16:43:13  [ main:21860 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/lib/JMSLib.java
+2016-07-21 16:43:15  [ main:24257 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/lib/OperationLib.java
+2016-07-21 16:43:16  [ main:25115 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/lib/package-info.java
+2016-07-21 16:43:20  [ main:29202 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/message/MessageSender.java
+2016-07-21 16:43:21  [ main:30004 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/message/package-info.java
+2016-07-21 16:43:27  [ main:35814 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/util/DateUtil.java
+2016-07-21 16:43:30  [ main:38367 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/util/InitParam.java
+2016-07-21 16:43:30  [ main:39189 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/util/StringUtil.java
+2016-07-21 16:43:31  [ main:40011 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/util/XmlReader.java
+2016-07-21 16:43:34  [ main:42417 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/util/package-info.java
+2016-07-21 16:43:38  [ main:46374 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/work/dao/AlarmDao.java
+2016-07-21 16:43:38  [ main:47262 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/work/dao/package-info.java
+2016-07-21 16:43:40  [ main:48867 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/work/itf/AlarmItf.java
+2016-07-21 16:43:41  [ main:49732 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/work/itf/package-info.java
+2016-07-21 16:43:42  [ main:50783 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/work/package-info.java
+2016-07-21 16:43:44  [ main:52486 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/work/vo/AlarmVo.java
+2016-07-21 16:43:45  [ main:53408 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/com/inspur/pmv5/almitf/work/vo/package-info.java
+2016-07-21 16:43:45  [ main:54300 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/config.properties
+2016-07-21 16:43:46  [ main:55293 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/src/poolman.xml
+2016-07-21 16:43:58  [ main:66887 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/test/com/inspur/pmv5/almitf/message/MessageSenderTest.java
+2016-07-21 16:44:02  [ main:71177 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/test/com/inspur/pmv5/almitf/work/dao/AlarmDaoTest.java
+2016-07-21 16:44:06  [ main:75063 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/test/com/inspur/pmv5/almitf/work/itf/AlarmItfTest.java
+2016-07-21 16:44:10  [ main:79153 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMItf/test/com/inspur/pmv5/almitf/work/vo/AlarmVoTest.java
+2016-07-21 16:44:14  [ main:82890 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/.settings/org.eclipse.core.resources.prefs
+2016-07-21 16:44:27  [ main:96240 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/business/dao/AlarmDao.java
+2016-07-21 16:44:28  [ main:97149 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/business/dao/TktTaskDao.java
+2016-07-21 16:44:30  [ main:98830 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/business/dao/package-info.java
+2016-07-21 16:44:35  [ main:104137 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/business/pojo/AlarmSenderVo.java
+2016-07-21 16:44:36  [ main:104922 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/business/pojo/AlarmVo.java
+2016-07-21 16:44:37  [ main:105708 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/business/pojo/ColumnVo.java
+2016-07-21 16:44:40  [ main:108630 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/business/pojo/TktTaskVo.java
+2016-07-21 16:44:41  [ main:109383 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/business/pojo/package-info.java
+2016-07-21 16:44:46  [ main:114407 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/business/work/AlarmFileGenerator.java
+2016-07-21 16:44:46  [ main:115136 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/business/work/AlarmProcess.java
+2016-07-21 16:44:49  [ main:117441 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/business/work/AlarmProcessInit.java
+2016-07-21 16:44:49  [ main:118133 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/business/work/AlarmProcessItf.java
+2016-07-21 16:44:52  [ main:120962 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/business/work/AlarmQuartz.java
+2016-07-21 16:44:54  [ main:123254 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/business/work/AlarmSender.java
+2016-07-21 16:44:55  [ main:124068 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/business/work/AlarmSentTT.java
+2016-07-21 16:44:58  [ main:126757 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/business/work/TTTaskQuartz.java
+2016-07-21 16:44:59  [ main:127552 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/business/work/ThreadPool.java
+2016-07-21 16:45:00  [ main:128404 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/business/work/package-info.java
+2016-07-21 16:45:05  [ main:133399 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/db/BasicDao.java
+2016-07-21 16:45:05  [ main:134090 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/db/PoolManInit.java
+2016-07-21 16:45:06  [ main:134895 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/db/package-info.java
+2016-07-21 16:45:09  [ main:137831 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/exception/DBException.java
+2016-07-21 16:45:10  [ main:138587 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/exception/package-info.java
+2016-07-21 16:45:11  [ main:140033 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/lib/AppParametersLib.java
+2016-07-21 16:45:12  [ main:140849 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/lib/JMSLib.java
+2016-07-21 16:45:15  [ main:143409 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/lib/OperationLib.java
+2016-07-21 16:45:15  [ main:144163 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/lib/package-info.java
+2016-07-21 16:45:17  [ main:145612 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/message/InitialContextFactory.java
+2016-07-21 16:45:18  [ main:146394 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/message/MessageReceiver.java
+2016-07-21 16:45:20  [ main:148978 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/message/MessageSender.java
+2016-07-21 16:45:24  [ main:152701 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/message/impl/FrontMessageListenerImpl.java
+2016-07-21 16:45:27  [ main:155627 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/message/impl/ItfMessageListenerImpl.java
+2016-07-21 16:45:28  [ main:156429 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/message/package-info.java
+2016-07-21 16:45:29  [ main:158265 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/threadpool/package-info.java
+2016-07-21 16:45:31  [ main:159936 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/util/DateUtil.java
+2016-07-21 16:45:32  [ main:161291 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/util/InitParam.java
+2016-07-21 16:45:36  [ main:164805 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/util/JsonUtils.java
+2016-07-21 16:45:37  [ main:165756 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/util/StringUtil.java
+2016-07-21 16:45:38  [ main:166656 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/util/XmlReader.java
+2016-07-21 16:45:39  [ main:167644 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/almp/util/package-info.java
+2016-07-21 16:45:50  [ main:179146 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/service/impl/sysintegration/wsn/notification/client/Consumer.java
+2016-07-21 16:45:51  [ main:179959 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/service/impl/sysintegration/wsn/notification/client/Notification4TTService.java
+2016-07-21 16:45:52  [ main:180765 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/service/impl/sysintegration/wsn/notification/client/WSNCallback.java
+2016-07-21 16:45:59  [ main:187354 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/com/inspur/pmv5/service/impl/sysintegration/wsn/notification/lib/AppParametersLib.java
+2016-07-21 16:46:03  [ main:192163 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/conf/log4j/pmlog.xml
+2016-07-21 16:46:04  [ main:193309 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/config.properties
+2016-07-21 16:46:05  [ main:194074 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-ALMProcess/src/poolman.xml
+2016-07-21 16:46:16  [ main:205102 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-BG-CAP/.settings/org.eclipse.jdt.core.prefs
+2016-07-21 16:46:17  [ main:205764 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-BG-CAP/.settings/org.eclipse.wst.common.project.facet.core.xml
+2016-07-21 16:46:21  [ main:209899 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-BG-CAP/.settings/org.jboss.ide.eclipse.as.core.prefs
+2016-07-21 16:46:26  [ main:214353 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-BG-CAP/sql/function/FN_SPLITANDCOUNT.sql
+2016-07-21 16:46:33  [ main:222172 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-BG-CAP/src/com/inspur/pmv5/background/capacity/CapCLIArgEnum.java
+2016-07-21 16:46:34  [ main:222769 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-BG-CAP/src/com/inspur/pmv5/background/capacity/CapDispatcher.java
+2016-07-21 16:46:35  [ main:223374 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-BG-CAP/src/com/inspur/pmv5/background/capacity/CapMainApp.java
+2016-07-21 16:46:36  [ main:224790 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-BG-CAP/src/com/inspur/pmv5/background/capacity/CapPUNERelationManager.java
+2016-07-21 16:46:37  [ main:225406 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-BG-CAP/src/com/inspur/pmv5/background/capacity/CapUserTriggerApp.java
+2016-07-21 16:46:37  [ main:226101 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-BG-CAP/src/com/inspur/pmv5/background/capacity/CapWorker.java
+2016-07-21 16:46:41  [ main:229373 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-BG-CAP/src/com/inspur/pmv5/background/capacity/para/CapParaAppArgEnum.java
+2016-07-21 16:46:41  [ main:230052 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-BG-CAP/src/com/inspur/pmv5/background/capacity/para/CapParaDispatcher.java
+2016-07-21 16:46:44  [ main:233222 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-BG-CAP/src/com/inspur/pmv5/background/capacity/para/CapParaProcessor.java
+2016-07-21 16:46:45  [ main:233938 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-BG-CAP/src/com/inspur/pmv5/background/capacity/para/CapParaWorker.java
+2016-07-21 16:46:53  [ main:241562 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-BG-CAP/topo.xml
+2016-07-21 16:47:00  [ main:249232 ] - [ INFO ]  get vesion https://10.110.2.10/obd/ACROSSV2R1C00/03-产品研发/02-Trunk/AcrossPM-BUSINESSPACKAGE/.settings/org.eclipse.jdt.core.prefs
+2016-07-21 16:51:31  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 16:51:34  [ main:3274 ] - [ INFO ]  end getAllSVNFileandversion.
+2016-07-21 16:52:20  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 16:52:25  [ main:5530 ] - [ INFO ]  end getAllSVNFileandversion.
+2016-07-21 17:03:13  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 17:03:16  [ main:2388 ] - [ INFO ]  end getAllSVNFileandversion.
+2016-07-21 17:05:22  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 17:05:25  [ main:2170 ] - [ INFO ]  end getAllSVNFileandversion.
+2016-07-21 17:05:47  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 17:05:49  [ main:2160 ] - [ INFO ]  end getAllSVNFileandversion.
+2016-07-21 17:06:15  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 17:06:18  [ main:2948 ] - [ INFO ]  end getAllSVNFileandversion.
+2016-07-21 17:07:33  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 17:07:35  [ main:2135 ] - [ INFO ]  end getAllSVNFileandversion.
+2016-07-21 17:07:59  [ main:1 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 17:08:01  [ main:2138 ] - [ INFO ]  end getAllSVNFileandversion.
+2016-07-21 17:14:11  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 17:14:21  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 17:16:29  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 17:18:32  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 17:18:34  [ main:2102 ] - [ INFO ]  end getAllSVNFileandversion.
+2016-07-21 17:18:51  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 17:20:16  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 17:20:53  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 17:21:57  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 17:21:59  [ main:2108 ] - [ INFO ]  end getAllSVNFileandversion.
+2016-07-21 17:22:19  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 17:22:21  [ main:2154 ] - [ INFO ]  end getAllSVNFileandversion.
+2016-07-21 19:34:48  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 19:34:53  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 19:34:55  [ main:2133 ] - [ INFO ]  end getAllSVNFileandversion.
+2016-07-21 19:35:27  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......
+2016-07-21 19:37:33  [ main:0 ] - [ INFO ]  start getAllSVNFileandversion......

@@ -1,0 +1,19 @@
+version：0.2
+检查每个需要记录审计日志的方法中是否记录了成功日志
+version：0.3
+修复bugs:
+1. 无法解析内部匿名类：
+         if (!StringUtil.isEmpty(topoAttribute)) {
+             elemAttrList = JsonUtils.fromJson(topoAttribute, new TypeToken<List<DashboardElementAttribute>>() {
+                        private static final long serialVersionUID = -4995877147437174699L;
+                    }
+.getType());
+        }
+2。 无法解析数组：
+String[] flag = {"node", "link"};
+version：0.4
+1. 两个双引号包裹的字符串剔除特殊字符仍有问题
+2. 增加检查每个不需要记录审计日志的方法并输出列表
+3. 完善解析数组和内部类的语句
+version：0.5
+引入程序运行日志

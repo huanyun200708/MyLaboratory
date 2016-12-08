@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace和定义的Mapper接口对应，并实现其中的方法 -->
+<mapper namespace="cn.com.hq.mapper.AccountMapper">
+ 
+    <select id="getList" parameterType="cn.com.hq.entity.Account" resultType="list" resultMap="accountResultMap">
+            select * from account where name like '%' #{name} '%'
+    </select>
+    
+     <select id="getFormateDate" parameterType="java.util.Map" resultType="String" >
+            select to_char(TO_DATE('${date}', 'yyyy-mm-dd'),'yyyy-mm-dd') from dual
+    </select>
+    
+    <select id="queryAccountByName" parameterType="String" resultType="list" resultMap="accountResultMap">
+            <!-- select * from account where name like '%' #{name} '%' -->
+            select * from account where name like #{name}
+    </select>
+    <select id="getListByName" parameterType="String" resultType="list" resultMap="accountResultMap">
+            <!-- select * from account where name like '%' #{name} '%' -->
+            select * from account where name in (#{value})
+    </select>
+    <select id="getAllAccount" resultType="list" resultMap="accountResultMap">
+            select * from account
+    </select>
+    
+    <!-- accountResultMap是account-resultmap.xml中定义的resultmap -->
+    <select id="get" parameterType="account" resultType="cn.com.hq.entity.Account" resultMap="accountResultMap">
+        <![CDATA[
+            select * from account where accountid = #{accountid}
+        ]]>
+    </select>
+    
+    <!-- 自动生成id策略 -->
+    <insert id="add" useGeneratedKeys="true" keyProperty="accountid" parameterType="account">
+        insert into account(accountid, name, passWord, description)
+        values(#{accountid}, #{name}, #{passWord}, #{description})
+    </insert>
+    
+    
+    <update id="edit" parameterType="account">
+        update account set
+        name = #{name},
+        description = #{description}        
+        where name = #{name}
+    </update>
+    
+    <delete id="remove" parameterType="account">
+        delete from account where accountid = #{accountid}
+    </delete>
+    
+</mapper>

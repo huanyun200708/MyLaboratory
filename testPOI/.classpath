@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="/PM-BASE-LIBS/poi-3.14-20160307.jar" sourcepath="C:/Users/acer-pc/.m2/repository/org/apache/poi/poi/3.14/poi-3.14-sources.jar"/>
+	<classpathentry kind="lib" path="/PM-BASE-LIBS/poi-excelant-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="/PM-BASE-LIBS/poi-ooxml-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="/PM-BASE-LIBS/poi-ooxml-schemas-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="/PM-BASE-LIBS/poi-scratchpad-3.14-20160307.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/utils"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

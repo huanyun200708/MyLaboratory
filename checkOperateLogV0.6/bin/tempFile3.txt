@@ -1,0 +1,19 @@
+package com.inspur.self.core.system.common;
+import java.util.Map;
+import com.inspur.self.core.base.action.BaseAction;
+import com.inspur.self.service.center.ServiceFactory;
+import com.inspur.self.service.common.SystemService;
+public class SystemAction extends BaseAction {
+    private static final long serialVersionUID = 1L;
+    private SystemService systemService = ServiceFactory.getSystemService();
+     public String getSysAbout() {
+        Map<String, String> maps = systemService.getSysAboutService();
+        if (maps != null) {
+        	this.responseWriter(maps.get("about").toString());
+}
+ else {
+        	this.responseWriter("");
+        }
+        return null;
+    }
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="lib/" kind="src" path="src"/>
+	<classpathentry kind="src" path="src/lib"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="src/lib/hornetq-commons.jar"/>
+	<classpathentry kind="lib" path="src/lib/jboss-mc.jar" sourcepath="D:/hornetq-2.4.0.Final/hornetq-HornetQ_2_4_0_Final"/>
+	<classpathentry kind="lib" path="src/lib/hornetq-jms-client.jar" sourcepath="D:/hornetq-2.4.0.Final/hornetq-HornetQ_2_4_0_Final"/>
+	<classpathentry kind="lib" path="src/lib/hornetq-core-client.jar" sourcepath="D:/hornetq-2.4.0.Final/hornetq-HornetQ_2_4_0_Final"/>
+	<classpathentry kind="lib" path="src/lib/netty.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

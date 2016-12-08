@@ -1,0 +1,829 @@
+MOInstenceAction	public static void main(String[] args)	need record operation log.
+MOInstenceAction	public static void main(String[] args)	         catch (RuntimeException e) {	need record operation log.
+SystemAction	public String getSysAbout()	need record operation log.
+AlarmAction	public String unAckAlarm()	need record operation log.
+AlarmAction	public void clearAlarm()	need record operation log.
+AlarmAction	public String exportFile()	need record operation log.
+AlarmAction	public String exportAlarm4Active()	need record operation log.
+AlarmAction	public String exportAlarm4Active()					if (!vdtAlmId(aId)) {	need record operation log.
+AlarmAction	public String exportAlarm4Active()				 if (!FileFinals.FILE_TYPE_CSV.equalsIgnoreCase(fileType) && !FileFinals.FILE_TYPE_EXCEL2007 .equalsIgnoreCase(fileType)) { 	need record operation log.
+AlarmAction	public String exportAlarm4Active()	  else if (!FileFinals.FILE_TYPE_CSV.equalsIgnoreCase(fileType) && !FileFinals.FILE_TYPE_EXCEL2003.equalsIgnoreCase(fileType) && !FileFinals.FILE_TYPE_EXCEL2007.equalsIgnoreCase(fileType)) { 	need record operation log.
+AlarmAction	public void ackAlarm()	need record operation log.
+AlarmAction	public void updateTTInfo()	need record operation log.
+AlarmAction	public void sendAlarm2TT()	need record operation log.
+AlarmConfigAction	public String saveColConfig4History()	need record operation log.
+AlarmConfigAction	public String saveColConfig4Active()	need record operation log.
+AlarmConfigAction	public String saveQueryCondition4History()	need record operation log.
+AlarmConfigAction	public void setAlarmConfig()	need record operation log.
+AlarmConfigAction	public String clearQueryCondition4Active()	need record operation log.
+AlarmConfigAction	public String saveQueryCondition4Active()	need record operation log.
+AlarmConfigAction	public String clearQueryCondition4History()	need record operation log.
+AlarmStatisticsAction	public void editTemplate()	need record operation log.
+AlarmStatisticsAction	public String exportFile()	need record operation log.
+AlarmStatisticsAction	public String exportFile()	                 catch (IOException e3) {	need record operation log.
+AlarmStatisticsAction	public String exportFile()	                 catch (IOException e3) {	need record operation log.
+AlarmStatisticsAction	public String exportFile()	                 catch (IOException e3) {	need record operation log.
+AlarmStatisticsAction	public String updateTemplate()	need record operation log.
+AlarmStatisticsAction	public String deleteTemplate()	need record operation log.
+AlarmStatisticsAction	public String saveTemplate()	need record operation log.
+AlarmStatisticsAction	public String saveTemplate()	         if (null == tplObj || "".equals(tplObj)) {	need record operation log.
+LoginAction	public String login()	need record operation log.
+LoginAction	public String login()	             if (userNotExist == LOGINCHECK_USER_NOTEXIST) {	need record operation log.
+LoginAction	public String login()	            if(!"0".equals(lockStatusBeforeCheck)){	need record operation log.
+LoginAction	public String login()	                 if (userLoginMax <= count) {	need record operation log.
+LoginAction	public String login()	                 if (!BeanUtils.isEmpty(onlineuser)) {	need record operation log.
+LoginAction	public String login()	             if (StringUtil.isEmpty(newPwd)) {	need record operation log.
+LoginAction	public String login()	         catch (Exception e) {	need record operation log.
+LoginAction	public String saveForcePwd()	need record operation log.
+LoginAction	public String saveForcePwd()	 catch (Exception e) {	need record operation log.
+LoginAction	public String saveForcePwd()	        if (0 <= changePwdInterval && changePwdInterval <= maxModifyInterval) {	need record operation log.
+LoginAction	public String saveForcePwd()	         if (String.valueOf(newPwdChars).equals(String.valueOf(oldPwdChars))) {	need record operation log.
+LoginAction	public String saveForcePwd()	         if (!StringUtil.isEmpty(errorMessage)) {	need record operation log.
+LoginAction	public String saveForcePwd()	         if (saveSalt != 1) {	need record operation log.
+LoginAction	public String saveForcePwd()	         catch (Exception e) {	need record operation log.
+OnlineUserAction	public String getOnlineUserList()	need record operation log.
+OnlineUserAction	public String getOnlineUserList()	         catch (Exception e) {	need record operation log.
+OnlineUserAction	public void kickOutOnlineUser()	need record operation log.
+OnlineUserAction	public void kickOutOnlineUser()	        	 if (BeanUtils.isEmpty(sessionIDsList)) {	need record operation log.
+OnlineUserAction	public void kickOutOnlineUser()	        	 if (sessionIDsList.contains(currentSessionString)) {	need record operation log.
+OnlineUserAction	public void kickOutOnlineUser()	         catch (Exception e) {	need record operation log.
+ResourceGroupAction	public void getResGroupInfo()	need record operation log.
+ResourceGroupAction	public void getResGroupInfo()	         catch (Exception e) {	need record operation log.
+ResourceGroupAction	public void getResGroupList()	need record operation log.
+ResourceGroupAction	public void getResGroupList()	         catch (Exception e) {	need record operation log.
+ResourceGroupAction	public void addResGroup()	need record operation log.
+ResourceGroupAction	public void addResGroup()	         if (!paramValidate(resGroupObj, "ADD", result)) {	need record operation log.
+ResourceGroupAction	public void deleteResGroup()	need record operation log.
+ResourceGroupAction	public void deleteResGroup()	         catch (Exception e) {	need record operation log.
+ResourceGroupAction	public void updateResGroup()	need record operation log.
+ResourceGroupAction	public void updateResGroup()	         if (resGroupID4Update.isEmpty() || !VerifyUtils.intNum(resGroupID4Update)) {	need record operation log.
+ResourceGroupAction	public void updateResGroup()	         if (!paramValidate(resGroupObj, "MODIFY", result)) {	need record operation log.
+RoleAction	public void addRole()	need record operation log.
+RoleAction	public void addRole()	         catch (RuntimeException e) {	need record operation log.
+RoleAction	public void addRole()	         if (!StringUtil.isEmpty(errorMessage)) {	need record operation log.
+RoleAction	public void addRole()	         catch (Exception e) {	need record operation log.
+RoleAction	public void deleteRole()	need record operation log.
+RoleAction	public void deleteRole()	         catch (Exception e) {	need record operation log.
+RoleAction	public void checkRoleInUse()	need record operation log.
+RoleAction	public void checkRoleInUse()	                 if (!VerifyUtils.intNum(roleId)) {	need record operation log.
+RoleAction	public void checkRoleInUse()	         else {	need record operation log.
+RoleAction	public void getRoleInfo()	need record operation log.
+RoleAction	public void getRoleInfo()	        	 if (!VerifyUtils.intNum(roleID)) {	need record operation log.
+RoleAction	public void getRoleInfo()	             catch (RuntimeException e) {	need record operation log.
+RoleAction	public void getRoleInfo()	         else {	need record operation log.
+RoleAction	public void updateRole()	need record operation log.
+RoleAction	public void updateRole()	         if (!StringUtil.isEmpty(errorMessage)) {	need record operation log.
+RoleAction	public void updateRole()	         catch (RuntimeException e) {	need record operation log.
+RoleAction	public void getRoleList()	need record operation log.
+RoleAction	public void getRoleList()	         catch (Exception e) {	need record operation log.
+UserAction	public String deleteAccount()	need record operation log.
+UserAction	public String deleteAccount()	         if(userIDsList.contains(currentUserID)) {	need record operation log.
+UserAction	public String deleteAccount()	 else if (userIDsList.contains(SUPERMANID)){	need record operation log.
+UserAction	public String deleteAccount()	         catch (Exception e) {	need record operation log.
+UserAction	public String deleteAccount()	         if ( result < 1) {	need record operation log.
+UserAction	public String getCurrentAccount()	need record operation log.
+UserAction	public String getCurrentAccount()	         if (currentUser != null) {	need record operation log.
+UserAction	public String getAll()	need record operation log.
+UserAction	public String getAll()	                 if (userList == null) {	need record operation log.
+UserAction	public String getAll()	         catch (Exception e) {	need record operation log.
+UserAction	public String getAllUser()	need record operation log.
+UserAction	public String getAllUser()	         catch (Exception e) {	need record operation log.
+UserAction	public String modifyAccount()	need record operation log.
+UserAction	public String modifyAccount()	             catch (Exception e) {	need record operation log.
+UserAction	public String modifyAccount()	        if(BeanUtils.isEmpty(userObj4Modify) || StringUtils.isEmpty(userObj4Modify.getUserID())) {	need record operation log.
+UserAction	public String modifyAccount()	         if (!userObj4Modify.getUserID().equals(userID4Modify)) {	need record operation log.
+UserAction	public String modifyAccount()	         if (SUPERMAN.equals(account4Modify) && !SecurityUtils.getCurrentUserAccount().equals(SUPERMAN)) {	need record operation log.
+UserAction	public String modifyAccount()	             if (sdf.parse(invalidDate).before(sdf.parse(validDate))) {	need record operation log.
+UserAction	public String modifyAccount()	         catch (ParseException e) {	need record operation log.
+UserAction	public String modifyAccount()	         catch (Exception e) {	need record operation log.
+UserAction	public String modifyAccount()	         if (result != 1) {	need record operation log.
+UserAction	public String resetPwdAccount()	need record operation log.
+UserAction	public String resetPwdAccount()	         if (SUPERMANID.equals(userID)) {	need record operation log.
+UserAction	public String resetPwdAccount()	         catch (SQLException e1) {	need record operation log.
+UserAction	public String resetPwdAccount()	         catch (Exception e1) {	need record operation log.
+UserAction	public String resetPwdAccount()	         if (currentUserID.equals(userID)) {	need record operation log.
+UserAction	public String resetPwdAccount()	         if (curUserObj1 != null && curUserObj1.getPassword().equalsIgnoreCase(" ")) {	need record operation log.
+UserAction	public String resetPwdAccount()	             if (BeanUtils.isEmpty(newPwd)) {	need record operation log.
+UserAction	public String resetPwdAccount()	         catch (Exception e) {	need record operation log.
+UserAction	public String resetPwdAccount()	         if (result < 1) {	need record operation log.
+UserAction	public String saveAccount()	need record operation log.
+UserAction	public String saveAccount()	         if (!StringUtil.isEmpty(errorMessage)) {	need record operation log.
+UserAction	public String saveAccount()	                 if (userMax > 0 && userCount >= userMax) {	need record operation log.
+UserAction	public String saveAccount()	             catch (Exception e) {	need record operation log.
+UserAction	public String saveAccount()	             if (userID == 0) {	need record operation log.
+UserAction	public String saveAccount()	             if (saveSalt != 1) {	need record operation log.
+UserAction	public String getUserByID()	need record operation log.
+UserAction	public String getUserByID()	         catch (Exception e) {	need record operation log.
+UserAction	public String unLockAccount()	need record operation log.
+UserAction	public String unLockAccount()	             if (BeanUtils.isEmpty(defaultPwd)) {	need record operation log.
+UserAction	public String unLockAccount()	             if (invalidtime == 2) {	need record operation log.
+UserAction	public String unLockAccount()	             else {	need record operation log.
+UserAction	public String unLockAccount()	         catch (Exception e) {	need record operation log.
+UserAction	public String unLockAccount()	         if (result < 1) {	need record operation log.
+UserAction	public String lockAccount()	need record operation log.
+UserAction	public String lockAccount()	         if (currentUserID.equals(userID)) {	need record operation log.
+UserAction	public String lockAccount()	         catch (Exception e) {	need record operation log.
+UserAction	public String lockAccount()	         if (result != 1) {	need record operation log.
+BusinessPackageImportAction	public File getTopicTemplateFileUpload()	need record operation log.
+BusinessPackageImportAction	public void setRptgroupid(String rptgroupid)	need record operation log.
+BusinessPackageImportAction	public String getDashboardid()	need record operation log.
+BusinessPackageImportAction	public void setTopicid(String topicid)	need record operation log.
+BusinessPackageImportAction	public void setTopicTemplateFileUpload(File topicTemplateFileUpload)	need record operation log.
+BusinessPackageImportAction	public String getModelName()	need record operation log.
+BusinessPackageImportAction	public String getGroupid()	need record operation log.
+BusinessPackageImportAction	public String getReportTemplateFileUploadFileName()	need record operation log.
+BusinessPackageImportAction	public File getDashboardTemplateFileUpload()	need record operation log.
+BusinessPackageImportAction	public String getTopicid()	need record operation log.
+BusinessPackageImportAction	public void setDashboardid(String dashboardid)	need record operation log.
+BusinessPackageImportAction	public void setFileName(String fileName)	need record operation log.
+BusinessPackageImportAction	public void setImpModel(String impModel)	need record operation log.
+BusinessPackageImportAction	public String getImpModel()	need record operation log.
+BusinessPackageImportAction	public String getDsbgroupid()	need record operation log.
+BusinessPackageImportAction	public void UploadBkpFiles()	need record operation log.
+BusinessPackageImportAction	public void UploadBkpFiles()	         if (!CheckFileUtil.isOptSizeOk()) {	need record operation log.
+BusinessPackageImportAction	public void UploadBkpFiles()	         if(StringUtil.isEmpty(objCode)) {	need record operation log.
+BusinessPackageImportAction	public void UploadBkpFiles()			if (isFileNameError) {	need record operation log.
+BusinessPackageImportAction	public void UploadBkpFiles()			         if(isFileSizeError) {	need record operation log.
+BusinessPackageImportAction	public void UploadBkpFiles()	catch(Exception e){	need record operation log.
+BusinessPackageImportAction	public void UploadBkpFiles()	                 if (!flag1) {	need record operation log.
+BusinessPackageImportAction	public void UploadBkpFiles()	                 if (!flag2) {	need record operation log.
+BusinessPackageImportAction	public void UploadBkpFiles()	             if(isFileTypeError) {	need record operation log.
+BusinessPackageImportAction	public void UploadBkpFiles()	             if(null == modelVo) {	need record operation log.
+BusinessPackageImportAction	public void UploadBkpFiles()	         catch (Exception e) {	need record operation log.
+BusinessPackageImportAction	public void setTemplateid(String templateid)	need record operation log.
+BusinessPackageImportAction	public void ImportTemplateAct()	need record operation log.
+BusinessPackageImportAction	public void ImportTemplateAct()	 catch (IOException e1) {	need record operation log.
+BusinessPackageImportAction	public void ImportTemplateAct()			if (StringUtils.isEmpty(objCode)) {	need record operation log.
+BusinessPackageImportAction	public void ImportTemplateAct()			if (!VerifyUtils.verify(objCode, Regex.file_name_linux)) {	need record operation log.
+BusinessPackageImportAction	public void ImportTemplateAct()			if (!"bpk".equals(fileSuffix.toLowerCase())) {	need record operation log.
+BusinessPackageImportAction	public void ImportTemplateAct()			if (!VerifyUtils.verify(importFileDir,Regex.file_name_linux,128)) {	need record operation log.
+BusinessPackageImportAction	public void ImportTemplateAct()			if (!StringUtils.isEmpty(groupid) && !VerifyUtils.verify(groupid.replaceAll("\|", ""), Regex.numberWord)) {	need record operation log.
+BusinessPackageImportAction	public void ImportTemplateAct()					if (!StringUtil.isEmpty(g) && !reportTemplateGroupService.isResReport(g)) {	need record operation log.
+BusinessPackageImportAction	public void ImportTemplateAct()			if (!StringUtils.isEmpty(templateid) && !VerifyUtils.verify(templateid.replaceAll("\|", ""), Regex.numberWord)) {	need record operation log.
+BusinessPackageImportAction	public void ImportTemplateAct()			if (StringUtils.isEmpty(impModel) || !modelList.contains(impModel)) {	need record operation log.
+BusinessPackageImportAction	public void ImportTemplateAct()						if (!flag) {	need record operation log.
+BusinessPackageImportAction	public void ImportTemplateAct()					if (BeanUtils.isEmpty(files)) {	need record operation log.
+BusinessPackageImportAction	public void ImportTemplateAct()					if(!checkFileNumber(files)){	need record operation log.
+BusinessPackageImportAction	public void ImportTemplateAct()						 if(BeanUtils.isEmpty(templateGroupStr)) {	need record operation log.
+BusinessPackageImportAction	public void ImportTemplateAct()						 if (templateGroupStr.indexOf("<PARENTGROUPID>dash_root_u<#PARENTGROUPID>") != -1 && this.isGroupNumExceed(dsbgroupid, "dash_root_u") || templateGroupStr.indexOf("<PARENTGROUPID>dash_root<#PARENTGROUPID>") != -1 && this.isGroupNumExceed(dsbgroupid, "dash_root")) { 	need record operation log.
+BusinessPackageImportAction	public void ImportTemplateAct()							if(!businessConn4HWService.businessReport4HW("RPT", excelTemplateIds, excelFilePath, "import", impModel)){	need record operation log.
+BusinessPackageImportAction	public void ImportTemplateAct()					if (importResult.startsWith("[") && importResult.endsWith("]")) {	need record operation log.
+BusinessPackageImportAction	public void ImportTemplateAct()	 catch (Exception e) {	need record operation log.
+BusinessPackageImportAction	public void ImportTemplateAct()							catch(IOException e){	need record operation log.
+BusinessPackageImportAction	public String getReportid()	need record operation log.
+BusinessPackageImportAction	public String getTsgroupid()	need record operation log.
+BusinessPackageImportAction	public void setReportTemplateFileUpload(File reportTemplateFileUpload)	need record operation log.
+BusinessPackageImportAction	public void setModelName(String modelName)	need record operation log.
+BusinessPackageImportAction	public String getFileName()	need record operation log.
+BusinessPackageImportAction	public String getDashboardTemplateFileUploadFileName()	need record operation log.
+BusinessPackageImportAction	public void setDashboardTemplateFileUploadFileName(String dashboardTemplateFileUploadFileName)	need record operation log.
+BusinessPackageImportAction	public void setReportTemplateFileUploadFileName(String reportTemplateFileUploadFileName)	need record operation log.
+BusinessPackageImportAction	public void setReportid(String reportid)	need record operation log.
+BusinessPackageImportAction	public String getTemplateid()	need record operation log.
+BusinessPackageImportAction	public File getReportTemplateFileUpload()	need record operation log.
+BusinessPackageImportAction	public String getRptgroupid()	need record operation log.
+BusinessPackageImportAction	public void setDashboardTemplateFileUpload(File dashboardTemplateFileUpload)	need record operation log.
+BusinessPackageImportAction	public String getTopicTemplateFileUploadFileName()	need record operation log.
+BusinessPackageImportAction	public void setGroupid(String groupid)	need record operation log.
+BusinessPackageImportAction	public void setDsbgroupid(String dsbgroupid)	need record operation log.
+BusinessPackageImportAction	public void setTopicTemplateFileUploadFileName(String topicTemplateFileUploadFileName)	need record operation log.
+BusinessPackageImportAction	public void setTsgroupid(String tsgroupid)	need record operation log.
+CapacityDetailAction	public void workbookDown()	need record operation log.
+CapacityDistExportAction	public void downWorkBook()	need record operation log.
+CapacityManageAction	public void workbookDownload()	need record operation log.
+CapacityThresholdAction	public String updateTableContent()	need record operation log.
+CapacityThresholdAction	public String importThreshold()	         if (StringUtils.isEmpty(fileType)) {	need record operation log.
+CapacityThresholdAction	public String importThreshold()	         if (!"xls".equals(fileType) && !"xlsx".equals(fileType)) {	need record operation log.
+CapacityThresholdAction	public String importThreshold()	         if (isFileTypeError) {	need record operation log.
+CapacityThresholdAction	public String importThreshold()	            if (!iserror) {	need record operation log.
+CapacityThresholdAction	public String importThreshold()	         catch (OfficeXmlFileException e) {	need record operation log.
+CapacityThresholdAction	public String importThreshold()	         catch (POIXMLException e) {	need record operation log.
+CapacityThresholdAction	public String importThreshold()	         catch (FileNotFoundException e) {	need record operation log.
+CapacityThresholdAction	public String importThreshold()	         catch (SQLException e) {	need record operation log.
+CapacityThresholdAction	public String updateSwitch()	need record operation log.
+CapacityThresholdAction	public void downloadSampleFile()	need record operation log.
+CapacityThresholdAction	public String exportThreshold()	 catch (Exception e) {	need record operation log.
+CapForecastResultAction	public void download()	need record operation log.
+TopoExportAction	public void workbookDown()	need record operation log.
+ChangePwdAction	public void saveChangedPwd()	need record operation log.
+ChangePwdAction	public void saveChangedPwd()	 catch (Exception e) {	need record operation log.
+ChangePwdAction	public void saveChangedPwd()	        if (0 <= changePwdInterval && changePwdInterval <= maxModifyInterval) {	need record operation log.
+ChangePwdAction	public void saveChangedPwd()	        if (String.valueOf(newPwdChars).equals(String.valueOf(oldPwdChars))) {	need record operation log.
+ChangePwdAction	public void saveChangedPwd()	        if (!StringUtil.isEmpty(errorMessage)) {	need record operation log.
+ChangePwdAction	public void saveChangedPwd()	         catch (Exception e) {	need record operation log.
+ChangePwdAction	public void savePwdDict()	need record operation log.
+ChangePwdAction	public void checkPwd()	need record operation log.
+ChangePwdAction	public void checkPwd()	         catch (Exception e) {	need record operation log.
+DeviceBusinessGroupAction	public String importBusinessGroup()	need record operation log.
+DeviceBusinessGroupAction	public String importBusinessGroup()	       if(!"monitor".equals(groupId)&&!"xflow".equals(groupId)){	need record operation log.
+DeviceBusinessGroupAction	public String importBusinessGroup()	             catch (UnsupportedEncodingException e1) {	need record operation log.
+DeviceBusinessGroupAction	public String importBusinessGroup()	         if (!checkFileSuffixValid(fileuploadFileName, FileFinals.FILE_TYPE_CSV) || !checkFileSuffixValid(fileName, FileFinals.FILE_TYPE_CSV)) { 	need record operation log.
+DeviceBusinessGroupAction	public String importBusinessGroup()	        if (!VerifyUtils.verify(fileName, Regex.file_name_linux, 128)) {	need record operation log.
+DeviceBusinessGroupAction	public void download(String fileNames,String groupId)	need record operation log.
+DeviceBusinessGroupAction	public String deleteBusinessGroup()	need record operation log.
+DeviceBusinessGroupAction	public String deleteBusinessGroup()	       		if(1 == enable) {	need record operation log.
+DeviceBusinessGroupAction	public String deleteBusinessGroup()	       if(flag){	need record operation log.
+DeviceCollectAction	public String importCollectList()	need record operation log.
+DeviceCollectAction	public String importCollectList()	 catch (UnsupportedEncodingException e) {	need record operation log.
+DeviceCollectAction	public String saveSetting()	need record operation log.
+DeviceCollectAction	public String saveSetting()				if (saveSettingSub3(credentialList,deviceOldName,beginTime)){	need record operation log.
+DeviceCollectAction	public String saveSetting()				if (saveSettingSub4(specialCredentialList,deviceOldName,beginTime)){	need record operation log.
+DeviceCollectAction	public String saveSetting()				if (saveSettingSub5(ruleList,deviceOldName,beginTime)){	need record operation log.
+DeviceCollectAction	public String saveSetting()				if (saveSettingSub6(primaryServerId, deviceOldName,beginTime )){	need record operation log.
+DeviceCollectAction	public String saveSetting()			if(StringUtils.equals(standbyServerId, primaryServerId)){	need record operation log.
+DeviceCollectAction	public String saveSetting()	else{	need record operation log.
+DeviceCollectAction	public String saveSetting()	catch(ParamValidateException e){	need record operation log.
+DeviceCollectAction	public String modifyIsOnSiteForNEDevice()	need record operation log.
+DeviceCollectAction	public String addCollectToObj()	need record operation log.
+DeviceCollectAction	public String addCollectToObj()	 catch (UnsupportedEncodingException e1) {	need record operation log.
+DeviceCollectAction	public String addCollectToObj()			if(!"0".equals(operation)){	need record operation log.
+DeviceCollectAction	public String addCollectToObj()			if(BeanUtils.isEmpty(deviceList)){	need record operation log.
+DeviceCollectAction	public void download(String fileName)	need record operation log.
+DeviceDiscoveryRulesAction	public String deleteDeviceDiscoveryTask()	need record operation log.
+DeviceDiscoveryRulesAction	public String deleteDeviceDiscoveryTask()	      if(scheduleId==null||"".equals(scheduleId)){	need record operation log.
+DeviceDiscoveryRulesAction	public String saveDeviceDiscoveryTask()	need record operation log.
+DeviceDiscoveryRulesAction	public String saveDeviceDiscoveryTask()		   if(!StringUtil.isEmpty(parameter.get("message").toString())&&StringUtil.isEmpty(parameter.get("flag").toString())){	need record operation log.
+DeviceDiscoveryRulesAction	public String modifyDeviceDiscoveryTask()	need record operation log.
+DeviceDiscoveryRulesAction	public String modifyDeviceDiscoveryTask()		  if(!StringUtil.isEmpty(parameter.get("message").toString())&&StringUtil.isEmpty(parameter.get("flag").toString())){	need record operation log.
+DeviceMIBAction	public String mibBrower()	need record operation log.
+DeviceMIBAction	public String mibBrower()	 catch (Exception e) {	need record operation log.
+DeviceMIBAction	public String mibBrower()	 catch (InterruptedException e) {	need record operation log.
+DeviceMIBAction	public void download(String fileName)	need record operation log.
+DeviceMIBAction	public String deleteMIBFiles()	need record operation log.
+DeviceMIBAction	public String deleteMIBFiles()	         catch (Exception e) {	need record operation log.
+EAMHostAction	public String saveEamHost()	need record operation log.
+EAMHostAction	public String saveEamHost()	        if (BeanUtils.isEmpty(eamHost)){	need record operation log.
+EAMHostAction	public String concatHostName(List<String> isUsedHost)	need record operation log.
+EAMHostAction	public String delEamHost()	need record operation log.
+EAMHostAction	public String modifyEamHost()	need record operation log.
+EAMHostAction	public String modifyEamHost()	        if (BeanUtils.isEmpty(eamHost)){	need record operation log.
+EAMHostAction	public boolean delFlag(List<EamHost> eamList , List<String> isUsedHost)	need record operation log.
+EamObjRuleAction	public String delete()	need record operation log.
+EamObjRuleAction	public String delete()	         catch (EamObjRuleRefException e) {	need record operation log.
+EamObjRuleAction	public String delete()	catch(ParamValidateException e){	need record operation log.
+EamObjRuleAction	public String delete()	         catch (Exception e) {	need record operation log.
+EamObjRuleAction	public String add()	need record operation log.
+EamObjRuleAction	public String add()			if(StringUtils.isEmpty(jsonData)){	need record operation log.
+EamObjRuleAction	public String add()	catch(ParamValidateException e1){	need record operation log.
+EamObjRuleAction	public String update()	need record operation log.
+EamObjRuleAction	public String update()			if (StringUtils.isEmpty(jsonData)) {	need record operation log.
+EamObjRuleAction	public String update()			if (!"DEVICE".equals(motypeCode) && StringUtils.isEmpty(nameOid)) {	need record operation log.
+EamObjRuleAction	public String update()			if ("DEVICE".equals(motypeCode) && !StringUtils.isEmpty(nameOid)) {	need record operation log.
+EamObjRuleAction	public String update()			if (!"DEVICE".equals(motypeCode) && StringUtils.isEmpty(nameRule)) {	need record operation log.
+EMSEntityAction	public String isEmsEntityExist()	need record operation log.
+EMSEntityAction	public String add()	need record operation log.
+EMSEntityAction	public String add()				if (BeanUtils.isEmpty(emsVersionList)) {	need record operation log.
+EMSEntityAction	public String add()			if (nameIsExist) {	need record operation log.
+EMSEntityAction	public String add()					if (!StringUtils.isEmpty(notexistConterSet)) {	need record operation log.
+EMSEntityAction	public String add()				 if (errorInfo2.contains("Password is empty.") || errorInfo2.contains("characters for Password.")) { 	need record operation log.
+EMSEntityAction	public String update()	need record operation log.
+EMSEntityAction	public String update()				if (BeanUtils.isEmpty(emsVersionList)) {	need record operation log.
+EMSEntityAction	public String update()					if (!StringUtils.isEmpty(notexistConterSet)) {	need record operation log.
+EMSEntityAction	public String update()			if (!StringUtil.isEmpty(errorMessage1)) {	need record operation log.
+EMSEntityAction	public String update()			if (nameIsExist) {	need record operation log.
+EMSEntityAction	public String test()	need record operation log.
+EMSEntityAction	public String test()		      	 if((!matcherIp.matches())) {	need record operation log.
+EMSEntityAction	public String test()		      	 if((!matcherUser.matches())) {	need record operation log.
+EMSEntityAction	public String test()		      	 if((!matcherPass.matches())) {	need record operation log.
+EMSEntityAction	public String test()		      	 if((!matcherPath.matches())) {	need record operation log.
+EMSEntityAction	public String test()	 catch (InterruptedException e) {	need record operation log.
+EMSEntityAction	public String setEnable()	need record operation log.
+EMSEntityAction	public String setEnable()			if (BeanUtils.isEmpty(ids)) {	need record operation log.
+EMSEntityAction	public String del()	need record operation log.
+EMSMOEntityNEAction	public String importMOEntityFilter()	need record operation log.
+EMSMOEntityNEAction	public String importMOEntityFilter()			 if (StringUtils.isEmpty(emsEntityId) || !VerifyUtils.verify(emsEntityId, Regex.intNum) || emsEntityId.length() > 128) { 	need record operation log.
+EMSMOEntityNEAction	public String importMOEntityFilter()			if (!filepath.equals(dirPath)) {	need record operation log.
+EMSMOEntityNEAction	public String importMOEntityFilter()	 catch (JSONException e) {	need record operation log.
+FlowDataIPRangeAction	public String addDomain()	need record operation log.
+FlowDataIPRangeAction	public String addDomain()	        if(domainNameExisted == 0) {	need record operation log.
+FlowDataIPRangeAction	public String addDomain()	else{	need record operation log.
+FlowDataIPRangeAction	public void exportGroupTemplate()	need record operation log.
+FlowDataIPRangeAction	public void exportGroupTemplate()	                 catch (IOException ex) {	need record operation log.
+FlowDataIPRangeAction	public void exportGroupTemplate()	                 catch (IOException ex) {	need record operation log.
+FlowDataIPRangeAction	public String updateDomain()	need record operation log.
+FlowDataIPRangeAction	public String updateDomain()	else{	need record operation log.
+FlowDataIPRangeAction	public String deleteDomain()	need record operation log.
+FlowDataIPRangeAction	public String importXflowDomain()	need record operation log.
+FlowDataIPRangeAction	public String importXflowDomain()	         if(StringUtils.isEmpty(fileName) || !VerifyUtils.verify(fileName, Regex.file_name_linux, 128)) { 	need record operation log.
+FlowDataIPRangeAction	public String save()	need record operation log.
+FlowDataIPRangeAction	public String save()	else{	need record operation log.
+FlowDataIPRangeAction	public void exportGroup()	need record operation log.
+FlowDataIPRangeAction	public void exportGroup()	                 catch (IOException ex) {	need record operation log.
+FlowDataIPRangeAction	public void exportGroup()	                 catch (IOException ex) {	need record operation log.
+FlowDataIPRangeAction	public String deleteIdList()	need record operation log.
+FlowDataIPRangeAction	public String deleteIdList()	else{	need record operation log.
+FlowDataIPRangeAction	public String importXflow()	need record operation log.
+FlowDataIPRangeAction	public void exportDomain()	need record operation log.
+FlowDataIPRangeAction	public void exportDomain()		                 catch (IOException eio) {	need record operation log.
+FlowDataIPRangeAction	public void exportDomain()		                 catch (IOException exce) {	need record operation log.
+FlowDataIPRangeAction	public void setFileuploadFileName(String fileuploadFileName)	need record operation log.
+FlowDataIPRangeAction	public String modify()	need record operation log.
+FlowDataIPRangeAction	public String modify()	        	if(!list1.get(0).getSubnetName().equals(subnetName)){	need record operation log.
+FlowDataIPRangeAction	public String modify()	else{	need record operation log.
+FlowDataIPRangeAction	public void exportDomainTemplate()	need record operation log.
+FlowDataIPRangeAction	public void exportDomainTemplate()	                 catch (IOException e0) {	need record operation log.
+FlowDataIPRangeAction	public void exportDomainTemplate()	                 catch (IOException ex) {	need record operation log.
+FlowDataIPRangeAction	public String getFileuploadFileName()	need record operation log.
+IPCredentialsAction	public String save()	need record operation log.
+IPCredentialsAction	public String save()	else{	need record operation log.
+IPCredentialsAction	public String save()	else{	need record operation log.
+IPCredentialsAction	public String del()	need record operation log.
+IPCredentialsAction	public String importIntoCache()	need record operation log.
+IPCredentialsAction	public String importIntoCache()			 if (!checkFileSuffixValid(fileuploadFileName, FileFinals.FILE_TYPE_CSV) || !checkFileSuffixValid(fileName, FileFinals.FILE_TYPE_CSV)) { 	need record operation log.
+////////////////////////////////////
+ManualTaskAction	public String pause()	        if(0>=setParam.length){	need record operation log.
+ManualTaskAction	public String pause()	             catch (Exception e) {	need record operation log.
+ManualTaskAction	public String add()	need record operation log.
+ManualTaskAction	public String update()	need record operation log.
+ManualTaskAction	public String delete()	         if (0 >= taskid.length) {	need record operation log.
+ManualTaskAction	public String delete()	             catch (Exception e) {	need record operation log.
+ManualTaskAction	public String resume()	         if (0 >= setParam.length) {	need record operation log.
+ManualTaskAction	public String resume()	             catch (Exception ex) {	need record operation log.
+ComponentPreviewAction	public void sendMailWithTemplate()	need record operation log.
+ComponentPreviewAction	public void renameElement()	need record operation log.
+ComponentPreviewAction	public void downloadFile()	need record operation log.
+ComponentPreviewAction	public void saveTopoEditResult()	need record operation log.
+ComponentPreviewAction	public void saveTopoEditResult()	             if (!BeanUtils.isEmpty(elementList)) {	need record operation log.
+ComponentPreviewAction	public void queryElementDatasForTopo(Element element,boolean validFileIsExist, String monitoring,boolean mergeDataFileFlag)	need record operation log.
+ComponentPreviewAction	public static void judgeTimeDim(Map<String,String> startDayTime, String timeDimensionId, List<String> timeDimension, TimeRangeTag timeRangeObj)	need record operation log.
+ComponentPreviewAction	public void queryElementDatasForGraphMap(Element element,boolean validFileIsExist, String monitoring,boolean mergeDataFileFlag)	need record operation log.
+ComponentPreviewAction	public void deleteElement()	need record operation log.
+ComponentPreviewAction	public void createElement()	need record operation log.
+ComponentPreviewAction	public void queryElementDatasForMatrix(Element element,boolean validFileIsExist, String monitoring,boolean mergeDataFileFlag)	need record operation log.
+ComponentPreviewAction	public void createTopoElement()	need record operation log.
+ComponentPreviewAction	public void createTopoElement()	 catch (JAXBException e) {	need record operation log.
+DashboardTreeAction	public String dashboardImportTemplateAct()	need record operation log.
+DashboardTreeAction	public void deleteTemplateNode()	need record operation log.
+DashboardTreeAction	public void modifyGroupNodeText()	need record operation log.
+DashboardTreeAction	public void templateAsMain()	need record operation log.
+DashboardTreeAction	public void templateCancelMain()	need record operation log.
+DashboardTreeAction	public void getDsbGraphicAxesStatus()	need record operation log.
+DashboardTreeAction	public void modifyTemplateNodeText()	need record operation log.
+DashboardTreeAction	public void getDatas4Tree()	need record operation log.
+DashboardTreeAction	public void getDatas4Tree()	             if (StringUtil.isEmpty(id)) {	need record operation log.
+DashboardTreeAction	public void addDashboardTemplate()	need record operation log.
+DashboardTreeAction	public void addDashboardTemplateGroup()	need record operation log.
+DashboardTreeAction	public void shareDashboardTemplate()	need record operation log.
+DashboardTreeAction	public void saveAsDashboard()	need record operation log.
+DashboardTreeAction	public void deleteGroupNode()	need record operation log.
+DashboardTreeAction	public void getDashboardTemplistDownloadPath()	need record operation log.
+DashboardTreeAction	public void getDashboardTemplistDownloadPath()	        			  if(gs == null || gs.isEmpty()) {	need record operation log.
+TopoNodeConfigAction	public String getTopoBackgroupImageFileUploadFileName()	need record operation log.
+TopoNodeConfigAction	public void uploadTopoBackgroupImage()	need record operation log.
+TopoNodeConfigAction	public void setTopoBackgroupImageFileUploadFileName( String topoBackgroupImageFileUploadFileName)	need record operation log.
+BusyHourAction	public String saveBusyHour()	 catch (RuntimeException e) {	need record operation log.
+BusyHourAction	public String deleteBusyHour()	need record operation log.
+CounterMgtAction	public String deleteRecord()	need record operation log.
+CounterMgtAction	public String updateNode()	need record operation log.
+EMSCounterAction	public String isExist()	need record operation log.
+EMSCounterAction	public String updateEMSCounterData()	need record operation log.
+EMSCounterAction	public String saveEMSCounter()	need record operation log.
+EMSCounterAction	public String saveEMSCounter()	             else {	need record operation log.
+EMSCounterAction	public String delEMSCounterData()	need record operation log.
+EMSCounterAction	public String isModExist()	need record operation log.
+ImportEMSCounterAction	public String importEMSCounter()	need record operation log.
+ImportEMSCounterAction	public void downloadEMSTemplate()	need record operation log.
+IndicatorBatchAction	public void downloadTemplate()	need record operation log.
+IndicatorBatchAction	public void batchUpdate()	need record operation log.
+IndicatorBatchAction	public void batchUpdate()	        	if(!standardizedPath.equals(filePathStr)){	need record operation log.
+IndicatorBatchAction	public void batchUpdate()	                 catch (Exception e) {	need record operation log.
+IndicatorSetAction	public String updateCounterSetData()	need record operation log.
+IndicatorSetAction	public String isAddExist()	need record operation log.
+IndicatorSetAction	public String delCounterSetData()	need record operation log.
+IndicatorSetAction	public String setEnable()	need record operation log.
+IndicatorSetAction	public String addCounterSet()	need record operation log.
+IndicatorSetAction	public String setDisable()	need record operation log.
+KPIAssociationAction	public String saveTableData()	need record operation log.
+KPIAssociationAction	public String isRepeat()	need record operation log.
+KPIAssociationAction	public String updateTableData()	need record operation log.
+KPIMgtAction	public String deleteKPI()	need record operation log.
+KPIMgtAction	public void addCommonKPIAndThreshold()	need record operation log.
+KPIMgtAction	public void addKPIAndThreshold()	need record operation log.
+KPIMgtAction	public String updateKPIAndThreshold()	need record operation log.
+KPIThresholdAction	public String getMaxDayWeek()	need record operation log.
+KPIThresholdAction	public void existUpperMOEntity()	need record operation log.
+KPIThresholdAction	public void addKPIThreshold()	need record operation log.
+KPIThresholdAction	public void getExistUpperMoType2()	need record operation log.
+KPIThresholdAction	public void deleteKPIThreshold()	need record operation log.
+KPIThresholdAction	public String getEntity()	need record operation log.
+PIAction	public String delete()	need record operation log.
+PIAction	public String update()	need record operation log.
+PIAction	public void add()	need record operation log.
+PISetAction	public String delete()	need record operation log.
+PISetAction	public String add()	need record operation log.
+PISetAction	public String update()	need record operation log.
+SummaryPathAction	public String deleteSummPath()	need record operation log.
+SummaryPathAction	public String updateSummPath()	need record operation log.
+InstantQueryAction	public void exportData()	need record operation log.
+InstantQueryAction	public void exportData()	        if(!isVersionOK){	need record operation log.
+InstantQueryAction	public void exportData()			 if(!StringUtil.isEmpty(errorMsg)) {	need record operation log.
+InstantQueryAction	public void exportData()	         if (!CheckFileUtil.isOptSizeOk()) {	need record operation log.
+InstantQueryAction	public void exportData()	            if(StringUtil.isEmpty(resultMap.get("filePath"))){	need record operation log.
+QueryTemplateAction	public String rename()	need record operation log.
+QueryTemplateAction	public String increase()	need record operation log.
+QueryTemplateAction	public String delete()	need record operation log.
+QueryTemplateAction	public void setDefaultTemplate()	need record operation log.
+QueryTemplateAction	public void resultExport()	need record operation log.
+QueryTemplateAction	public void resultExport()	        if(!isVersionOK){	need record operation log.
+QueryTemplateAction	public void hasDefaultTemplate()	need record operation log.
+QueryTemplateGroupAction	public String rename()	need record operation log.
+QueryTemplateGroupAction	public String add()	need record operation log.
+QueryTemplateGroupAction	public QueryTemplate queryDefalutQueryTemplateId(String motypeId)	need record operation log.
+QueryTemplateGroupAction	public void getQueryTemplistDownloadPath()	need record operation log.
+QueryTemplateGroupAction	public String delete()	need record operation log.
+MMSTemplateAction	public void modifyTemplate()	         if (StringUtils.isEmpty(tempID)) {	need record operation log.
+MMSTemplateAction	public void deleteTemplate()	        	 if(BeanUtils.isEmpty(mmsTemplate)) {	need record operation log.
+MMSTemplateAction	public void deleteTemplate()	         catch (Exception e) {	need record operation log.
+ConflictDataAction	public void clearConflictData()	need record operation log.
+ConflictDataAction	public String confirmConflictDatas()	need record operation log.
+ConflictDataAction	public void download()	need record operation log.
+ConflictMOAction	public String saveRules()	need record operation log.
+DicMgtAction	public void addDicGroup()	need record operation log.
+DicMgtAction	public void updateDicGroup()	need record operation log.
+DicMgtAction	public void delDicGroup()	need record operation log.
+DicValueMgtAction	public String updateDicValue()	need record operation log.
+DicValueMgtAction	public String addDicValue()	need record operation log.
+DicValueMgtAction	public String delDicValue()	need record operation log.
+DomainAction	public String addDomain()	need record operation log.
+DomainAction	public String modifyDomain()	need record operation log.
+ExclusionMgtAction	public void importExclusionData()	need record operation log.
+ExclusionMgtAction	public void modifyExclusionTemplate()	need record operation log.
+ExclusionMgtAction	public void downloadTemplate()	need record operation log.
+ExclusionMgtAction	public void modifyExclusionData()	need record operation log.
+ExclusionMgtAction	public void addExclusionTemplate()	need record operation log.
+ExclusionMgtAction	public void deleteExclusionTemplate()	need record operation log.
+ExclusionMgtAction	public void addExclusionData()	need record operation log.
+ExclusionMgtAction	public void addExclusionData()	         else if (StringUtils.isEmpty(sb.toString())) {	need record operation log.
+ExclusionMgtAction	public void addExclusionData()	         else {	need record operation log.
+FavoriteMOGroupAction	public void confirmMOEntitys()	need record operation log.
+FavoriteMOGroupAction	public String addGroupRules()	need record operation log.
+FavoriteMOGroupAction	public String addGroupRules()	        if(BeanUtils.isEmpty(groupRuleList)) {	need record operation log.
+FavoriteMOGroupAction	public String deleteFavoriteMOEntitys()	need record operation log.
+FavoriteMOGroupAction	public void downloadTemplate()	need record operation log.
+FavoriteMOGroupAction	public String deleteLogicMOEntity()	need record operation log.
+FavoriteMOGroupAction	public String deleteLogicMOEntity()	         if (BeanUtils.isEmpty(map) || StringUtil.isEmpty((String)map.get("objId")) || !((String)map.get("objId")).equals(logicmoID)) {	need record operation log.
+FavoriteMOGroupAction	public String deleteLogicMOEntity()	         if (StringUtil.isNotEmpty(information)) {	need record operation log.
+FavoriteMOGroupAction	public String delGroupRuleByRuleId()	need record operation log.
+FavoriteMOGroupAction	public String saveAsMOGroup()	need record operation log.
+FavoriteMOGroupAction	public String saveAsMOGroup()	         if (StringUtil.isEmpty(favoriteMOGroupJsonData)) {	need record operation log.
+FavoriteMOGroupAction	public String saveAsMOGroup()	         if (favoriteMOGroup == null) {	need record operation log.
+FavoriteMOGroupAction	public boolean upLoadFile()	need record operation log.
+FavoriteMOGroupAction	public String saveFavoriteMOEntitys()	need record operation log.
+FavoriteMOGroupAction	public String deleteFavoriteMOGroups()	need record operation log.
+FavoriteMOGroupAction	public void saveLogicMOEntity()	need record operation log.
+FavoriteMOGroupAction	public void saveLogicMOEntity()	         if("false".equals(isAdd)) {	need record operation log.
+FavoriteMOGroupAction	public void saveLogicMOEntity()	             if(moEntityService.isRepeatMOEntityName(modelBID, moID,logicMOName)) {	need record operation log.
+FavoriteMOGroupAction	public void saveLogicMOEntity()	         if (isExistMOEntityName) {	need record operation log.
+FavoriteMOGroupAction	public void saveLogicMOEntity()	         if (!BeanUtils.isEmpty(map) && StringUtil.isNotEmpty((String)map.get("motypeID")) && StringUtil.isNotEmpty((String)map.get("objId"))) {	need record operation log.
+FavoriteMOGroupAction	public void saveLogicMOEntity()	         catch (RuntimeException e) {	need record operation log.
+FavoriteMOGroupAction	public String saveFavoriteMOGroup()	need record operation log.
+FavoriteMOGroupAction	public String saveFavoriteMOGroup()	catch (JSONException e) {	need record operation log.
+FavoriteMOGroupAction	public String modifyGroupRuleByRuleId()	need record operation log.
+GISSiteAction	public void addGISSite()	need record operation log.
+GISSiteAction	public void saveGISSite()	need record operation log.
+GISSiteAction	public void deleteGISSite()	need record operation log.
+IMImportAction	public void setImImportFileUploadFileName(String imImportFileUploadFileName)	need record operation log.
+IMImportAction	public void downloadImTemplate()	need record operation log.
+IMImportAction	public String imImportProcess()	need record operation log.
+IMImportAction	public String getImImportFileUploadFileName()	need record operation log.
+IndicatorAssignmentAction	public String updateGroupTree()	need record operation log.
+IndicatorAssignmentAction	public String updateGroupTree()	         if ((!StringUtils.isEmpty(text)) && text.equals(oldName)) {	need record operation log.
+IndicatorAssignmentAction	public String modifyGroupRule()	need record operation log.
+IndicatorAssignmentAction	public String addGroupRules()	need record operation log.
+IndicatorAssignmentAction	public String upLoadFile()	need record operation log.
+IndicatorAssignmentAction	public String upLoadFile()	         if (!upLoadFileCheck(file)) {	need record operation log.
+IndicatorAssignmentAction	public String upLoadFile()	        	if(!standardizedPath.equals(filePathStr)){	need record operation log.
+IndicatorAssignmentAction	public void downloadMOTemplate()	need record operation log.
+IndicatorAssignmentAction	public String removeNode()	need record operation log.
+IndicatorAssignmentAction	public String removeGroupRule()	need record operation log.
+IndicatorAssignmentAction	public String removeGroupRule()	         if (!removeGroupRuleCheck(idLst) || StringUtil.isEmpty(groupId) || StringUtil.isEmpty(moTypeId)) {	need record operation log.
+IndicatorAssignmentAction	public String hasTheSameName()	need record operation log.
+IndicatorAssignmentAction	public String hasTheSameName()	         catch (Exception e) {	need record operation log.
+IndicatorAssignmentAction	public String hasChildren()	need record operation log.
+IndicatorAssignmentAction	public String hasChildren()	         catch (Exception e) {	need record operation log.
+IndicatorAssignmentAction	public String resetGroup()	need record operation log.
+IndicatorAssignmentAction	public String deleteEntity()	need record operation log.
+IndicatorAssignmentAction	public String saveGroupTree()	need record operation log.
+IndicatorAssignmentAction	public String saveGroupTree()	         catch (Exception e) {	need record operation log.
+IndicatorAssignmentAction	public String saveGroupTree()	        if(duplicate){	need record operation log.
+IndicatorAssignmentAction	public String saveFormlaOfGroup()	need record operation log.
+IndicatorAssignmentAction	public String deleleAssignFormula()	need record operation log.
+IndicatorAssignmentAction	public String addEntity()	need record operation log.
+IsolateMgtAction	public String deleteMOEntity()	need record operation log.
+LayerGroupAction	public String delLayerGroup()	need record operation log.
+LayerGroupAction	public String addLayerGroup()	need record operation log.
+LayerGroupAction	public String modifyLayerGroup()	need record operation log.
+LayerTypeAction	public String queryForGisRegion()	need record operation log.
+LayerTypeAction	public String queryForGisRegion()	         if (StringUtils.isEmpty(layerTypeIDs)) {	need record operation log.
+LayerTypeAction	public String addLayerType()	need record operation log.
+LayerTypeAction	public String updateLayerType()	need record operation log.
+LayerTypeAction	public String deleteLayer()	need record operation log.
+MappingMostAction	public String saveMostMapping()	need record operation log.
+MngDomainAction	public String addGroup()	need record operation log.
+MngDomainAction	public String addMngDomainDynGroup()	need record operation log.
+MngDomainAction	public String deleteMngDomain()	need record operation log.
+MngDomainAction	public String modifyGroupName()	need record operation log.
+MOAttributeAction	public String batchUpdate()	need record operation log.
+MOAttributeAction	public String batchUpdate()	    	 if (!CheckFileUtil.isOptSizeOk()) {	need record operation log.
+MOAttributeAction	public String batchUpdate()	         if (!FileFinals.FILE_TYPE_EXCEL2003.equalsIgnoreCase(fileSuffix) && !FileFinals.FILE_TYPE_EXCEL2007.equalsIgnoreCase(fileSuffix)) {	need record operation log.
+MOAttributeAction	public String batchUpdate()	         if(!CheckFileUtil.getFileType(excelFile).equals(FileFinals.FILE_HEADER_EXCEL)&& !CheckFileUtil.getFileType(excelFile).equals(FileFinals.FILE_HEADER_COMMON)) {	need record operation log.
+MOAttributeAction	public String batchUpdate()	             catch (Exception e) {	need record operation log.
+MOAttributeAction	public String batchUpdate()	         if (!checkFileSize(excelFile, 2097152)) {	need record operation log.
+MOAttributeAction	public String batchUpdate()	             if(OperLogUtil.getOperResult().isStopProcess()) {	need record operation log.
+MOAttributeAction	public String batchUpdate()	             else {	need record operation log.
+MOAttributeAction	public String batchUpdate()	         catch (Exception e) {	need record operation log.
+MOAttributeAction	public void downloadAttributeTemplate()	need record operation log.
+MOEntityAction	public String updateMOEntity()	need record operation log.
+MOEntityAction	public String updateMOEntity()	            if(!isExist){	need record operation log.
+MOEntityAction	public String updateMOEntity()	             if (!paramValidate(moentityMap, "MODIFY", resultMap)) {	need record operation log.
+MOEntityAction	public String updateMOEntity()	             if (!att2rFlag) {	need record operation log.
+MOEntityAction	public String delMOEntity()	need record operation log.
+MOEntityAction	public String mergeMOEntity()	need record operation log.
+MOEntityAction	public String saveStaticMOEntitys()	need record operation log.
+MOEntityAction	public String saveMOEntity()	need record operation log.
+MOEntityBatchAction	public void export()	need record operation log.
+MOEntityBatchAction	public String upload()	need record operation log.
+MOEntityBatchAction	public String update()	need record operation log.
+MOEntityBatchAction	public String update()	             catch (Exception e) {	need record operation log.
+MOEntityBatchAction	public void download()	need record operation log.
+MOEntityBatchAction	public String batchUpdate()	need record operation log.
+MoGroupManageAction	public void deleteEntity()	need record operation log.
+MoGroupManageAction	public void deleteEntity()	         if (isGroupIdExist) {	need record operation log.
+MoGroupManageAction	public void deleteEntity()	         if (isObjIdsLegal) {	need record operation log.
+MoGroupManageAction	public void deleteEntity()		         if (isMoTypeIdExist) {	need record operation log.
+MoGroupManageAction	public String renameGroup()	need record operation log.
+MoGroupManageAction	public String deleteGroup()	need record operation log.
+MoGroupManageAction	public String deleteGroup()	         if (isGroupIdExist) {	need record operation log.
+MoGroupManageAction	public void upLoadFile()	need record operation log.
+MoGroupManageAction	public void upLoadFile()	         if (!upLoadFileCheck(file)) {	need record operation log.
+MoGroupManageAction	public void saveMoType()	need record operation log.
+MoGroupManageAction	public void setSummary()	need record operation log.
+MoGroupManageAction	public void modifyGroupRule()	need record operation log.
+MoGroupManageAction	public void modifyGroupRule()			     if (BeanUtils.isEmpty(ruleData)) {	need record operation log.
+MoGroupManageAction	public void modifyGroupRule()			     if (BeanUtils.isEmpty(groupRule)) {	need record operation log.
+MoGroupManageAction	public void modifyGroupRule()	             if (securityChecker.isMoTypeIdExist(sourceMoType)) {	need record operation log.
+MoGroupManageAction	public void modifyGroupRule()	             if (securityChecker.isMoTypeIdExist(filterMoType)) {	need record operation log.
+MoGroupManageAction	public void modifyGroupRule()	             if (securityChecker.isAttributeExist(attribute)) {	need record operation log.
+MoGroupManageAction	public void modifyGroupRule()	             if (securityChecker.isGroupIdExist(groupId)) {	need record operation log.
+MoGroupManageAction	public void modifyGroupRule()	             if (securityChecker.isOperatorExist(operator)) {	need record operation log.
+MoGroupManageAction	public void modifyGroupRule()	 catch (Exception e) {	need record operation log.
+MoGroupManageAction	public String addGroup()	need record operation log.
+MoGroupManageAction	public void resetGroup()	need record operation log.
+MoGroupManageAction	public void addEntity()	need record operation log.
+MoGroupManageAction	public void addEntity()	         if (isGroupIdExist) {	need record operation log.
+MoGroupManageAction	public void addEntity()	         if (isObjIdsLegal) {	need record operation log.
+MoGroupManageAction	public void addEntity()	         if (isSummaryPathLegal) {	need record operation log.
+MoGroupManageAction	public void addEntity()	             if (isParentMOTypeIDExist) {	need record operation log.
+MoGroupManageAction	public void addEntity()	         if (isObjIdLegal) {	need record operation log.
+MoGroupManageAction	public void addEntity()	         if (isMoTypeIdExist) {	need record operation log.
+MoGroupManageAction	public void addEntity()	         catch (Exception e) {	need record operation log.
+MoGroupManageAction	public void addGroupRules()	need record operation log.
+MoGroupManageAction	public void addGroupRules()	        	 if (BeanUtils.isEmpty(groupRuleList)) {	need record operation log.
+MoGroupManageAction	public void addGroupRules()	                if(checker.isMoTypeIdExist(sourceMoTypeId)) {	need record operation log.
+MoGroupManageAction	public void addGroupRules()	                if(checker.isMoTypeIdExist(filterMoTypeId)) {	need record operation log.
+MoGroupManageAction	public void addGroupRules()	                if(checker.isAttributeExist(attributeId)) {	need record operation log.
+MoGroupManageAction	public void addGroupRules()	                if(checker.isGroupIdExist(moGroupId)) {	need record operation log.
+MoGroupManageAction	public void addGroupRules()	                if(checker.isOperatorExist(operator)) {	need record operation log.
+MoGroupManageAction	public void addGroupRules()	 catch (Exception e) {	need record operation log.
+MoGroupManageAction	public void removeGroupRule()	need record operation log.
+MoGroupManageAction	public void removeGroupRule()	    		 if (securityChecker.isGroupIdExist(groupId)) {	need record operation log.
+MoGroupManageAction	public void removeGroupRule()	    		 if (BeanUtils.isEmpty(ruleIdArray)) {	need record operation log.
+MoGroupManageAction	public void removeGroupRule()	         catch (Exception e) {	need record operation log.
+MoMgtAction	public String addDomain()	need record operation log.
+MoMgtAction	public String delDomain()	need record operation log.
+MoMgtAction	public String modifyDomain()	need record operation log.
+MOTypeMgtAction	public String addMOType()	need record operation log.
+MOTypeMgtAction	public String addMOType()			if ("update".equals(operation)) {	need record operation log.
+MOTypeMgtAction	public String updateMOType()	need record operation log.
+MOTypeMgtAction	public String updateMOType()	 catch (MOAttributeNotDeleteException e) {	need record operation log.
+MOTypeMgtAction	public String updateMOType()	   catch (ParamValidateException e) {	need record operation log.
+MOTypeMgtAction	public String deleteMOType()	need record operation log.
+MOTypeMgtAction	public String deleteMOType()	 catch (MOAttributeNotDeleteException e) {	need record operation log.
+ParameterModelAction	public void deleteModelRelation()	need record operation log.
+ParameterModelAction	public void deleteModelRelation()	         if(isExistChild) {	need record operation log.
+ParameterModelAction	public void deleteParameterModel()	need record operation log.
+ParameterModelAction	public void deleteParameterModel()	                catch(Exception e){	need record operation log.
+ParameterModelAction	public void updateParameterModel()	need record operation log.
+TopoImageAction	public String addNewImageGroup()	need record operation log.
+BaseLineExceptionReleaseMgtAction	public String updateTask()	need record operation log.
+BaseLineExceptionReleaseMgtAction	public String updateTask()	         if (BeanUtils.isEmpty(parameterTask)) {	need record operation log.
+BaseLineExceptionReleaseMgtAction	public String updateTask()				if(!falg){	need record operation log.
+EngineeringParaMgtAction	public void uploadFile()	need record operation log.
+EngineeringParaMgtAction	public void uploadFile()	         if(!StringUtils.isEmpty(messgage)) {	need record operation log.
+EngineeringParaMgtAction	public String update()	need record operation log.
+EngineeringParaMgtAction	public void addExportTask()	need record operation log.
+EngineeringParaMgtAction	public String delete()	need record operation log.
+EngineeringParaMgtAction	public String saveEngineeringParaReleaseTask()	need record operation log.
+EngineeringParaMgtAction	public String saveEngineeringParaReleaseTask()	        if(!falg){	need record operation log.
+ExceptionRuleImportAction	public void importExptionRule()	need record operation log.
+ExceptionRuleManageAction	public void addExceptionRule()	need record operation log.
+ExceptionRuleManageAction	public void addExceptionRule()	         if (!BeanUtils.isEmpty(validResult)) {	need record operation log.
+ExceptionRuleManageAction	public void addExceptionRule()	         if (this.dealModelList(modelList)) {	need record operation log.
+ExceptionRuleManageAction	public void updateExptionRule()	need record operation log.
+ExceptionRuleManageAction	public void delExptionRule()	need record operation log.
+ExceptionRuleManageAction	public void delExptionRule()	         if (StringUtil.isEmpty(ruleId)) {	need record operation log.
+ExceptionRuleManageAction	public void downloadTemplate()	need record operation log.
+MailToMgtAction	public String sendMail()	need record operation log.
+NewStationMgtAction	public String exportTemplate()	need record operation log.
+NewStationMgtAction	public String getFileuploadFileName()	need record operation log.
+ParameterBaselineAction	public String delParameterBaselineData()	need record operation log.
+ParameterBaselineAction	public String updateParameterBaseline()	need record operation log.
+ParameterBaselineAction	public String updateParameterBaseline()	                 if (map.get("content").contains("Error") || map.get("content").contains("error") || "error".equals(map.get("title"))) {	need record operation log.
+ParameterExportMgtAction	public void exportInstance()	need record operation log.
+ParameterExportMgtAction	public void exportInstance()	         if (!CheckFileUtil.isOptSizeOk()) {	need record operation log.
+ParameterTaskAction	public String updateParameterTaskUsable()	need record operation log.
+ParameterTaskAction	public String deleteParameterTask()	need record operation log.
+ParameterTaskAction	public String saveParameterTask()	need record operation log.
+ParameterTaskAction	public String saveParameterTask()	         if (!validation) {	need record operation log.
+TroubleTicketAction	public String sendTT()	need record operation log.
+TroubleTicketAction	public String sendTT()	             catch (UnsupportedEncodingException e) {	need record operation log.
+UpdateParameterAction	public String addParameterBaselineRuleMML()	need record operation log.
+UpdateParameterAction	public String addParameterBaselineRuleMML()	             if (isExist) {	need record operation log.
+UpdateParameterAction	public String delParameterMMLData()	need record operation log.
+UpdateParameterAction	public String updateParameterMMLData()	need record operation log.
+ModifyAbnormalDataAction	public String saveAbnormal()	 catch (Exception e) {	need record operation log.
+ModifyAbnormalDataAction	public String saveAbnormal()				 if(!serviceFlag) {	need record operation log.
+ModifyAbnormalDataAction	public String saveAbnormal()	 catch (Exception e) {	need record operation log.
+ReportAttentionAction	public String toggleAttention()	need record operation log.
+ReportGroupAction	public String getGroupTree()	need record operation log.
+ReportGroupAction	public String getGroupTreeforExport()	need record operation log.
+ReportGroupAction	public String addChildGroup()	         catch (AcrossPmException e) {	need record operation log.
+ReportGroupAction	public String addChildGroup()	         catch (Exception e) {	need record operation log.
+ReportGroupAction	public String deleteNode()	need record operation log.
+ReportGroupAction	public String modifyNodeText()	need record operation log.
+ReportGroupAction	public String modifyNodeText()	        	 catch (AcrossPmException e) {	need record operation log.
+ReportPreviewAction	public void previewReport()	need record operation log.
+ReportPreviewAction	public void previewReport()	             if (exceedNum > 0) {	need record operation log.
+ReportPreviewAction	public void previewReport()	         catch (Exception e) {	need record operation log.
+ReportResultAction	public void download()	need record operation log.
+ReportTemplateAction	public String importTemplateAct()	need record operation log.
+ReportTemplateAction	public String importTemplateAct()	 catch (EncodingException e1) {	need record operation log.
+ReportTemplateAction	public String deleteTemp()	             if (judge1) {	need record operation log.
+ReportTemplateAction	public String deleteTemp()	             if (judge2) {	need record operation log.
+ReportTemplateAction	public String deleteTemp()	                 if (judge3 && BeanUtils.isEmpty(rptBasicTemplate.getGroupId())) {	need record operation log.
+ReportTemplateAction	public String moveTemp()	need record operation log.
+ReportTemplateAction	public String moveTemp()	         catch (AcrossPmException e) {	need record operation log.
+ReportTemplateAction	public String saveLogicRuleAsMOGroup()	need record operation log.
+ReportTemplateAction	public void requestHWURL()	need record operation log.
+ReportTemplateAction	public void requestHWURL()	         if (parameterMap == null) {	need record operation log.
+ReportTemplateAction	public void requestHWURL()	         catch (Exception e1) {	need record operation log.
+ReportTemplateAction	public void requestHWURL()	                 if (httpResponse.getStatusLine().getStatusCode() == 200) {	need record operation log.
+ReportTemplateAction	public void requestHWURL()	                 else if (httpResponse.getStatusLine().getStatusCode() == 302) {	need record operation log.
+ReportTemplateAction	public void getExportTemplistDownloadPath()	             catch (Exception e) {	need record operation log.
+ReportTemplateAction	public void getExportTemplistDownloadPath()	 catch (Exception e) {	need record operation log.
+ReportTemplateAction	public void excelReport4HW(String excelTemplateIds, String fileDir, String bussinessType, String impType)	need record operation log.
+ReportTemplateAction	public String uploadBkpFiles()	         catch (Exception e) {	need record operation log.
+ReportTemplateAction	public void download()	need record operation log.
+ReportTemplateAction	public String modifyReportTemplates()	         catch (Exception e) {	need record operation log.
+ReportTemplateAction	public void setOperType(String operType)	need record operation log.
+TimeGranularityAction	public String getAllTimeDictionary()	need record operation log.
+PushAction	public void initAuthPwdInfo(String confpath)	need record operation log.
+PushAction	public void initAuthPwdInfo(String confpath)	catch(Exception e){	need record operation log.
+PushAction	public void initAuthInfo(String confpath)	need record operation log.
+PushAction	public void initAuthInfo(String confpath)	catch(Exception e){	need record operation log.
+RtmLiveViewAction	public void persistLiveViews()	need record operation log.
+RtmLiveViewAction	public void persistLiveViews()			if(!validateYaixs(liveviews)){	need record operation log.
+RtmLiveViewAction	public void persistLiveViews()			if(!validateSeries(liveviews)){	need record operation log.
+RtmLiveViewAction	public void persistLiveViews()			if(!validateThreshold(liveviews)){	need record operation log.
+RtmLiveViewAction	public void persistLiveViews()			if(isDuilpName){	need record operation log.
+RtmLiveViewAction	public void persistLiveViews()	catch(Exception e){	need record operation log.
+RtmLiveViewAction	public void exportLiveViewTaskData2CSV()	need record operation log.
+RtmLiveViewAction	public void exportLiveViewTaskData()	need record operation log.
+RtmTemplateAction	public void deleteTemplateList()	need record operation log.
+RtmTemplateAction	public void createElement()	need record operation log.
+RtmTemplateAction	public void createElement()	        if(!this.validateYaixs(elementJson)){	need record operation log.
+RtmTemplateAction	public void createElement()	        if(!this.validateSeries(elementJson)){	need record operation log.
+RtmTemplateAction	public void createElement()	        if(!validateThreshold(elementJson)){	need record operation log.
+RtmTemplateAction	public void editTemplateListName()	need record operation log.
+RtmTemplateAction	public void editTemplateListName()	else{	need record operation log.
+SMSTemplateAction	public void modifyTemplate()	         if (BeanUtils.isEmpty(tempPtID)) {	need record operation log.
+SMSTemplateAction	public void deleteTemplate()	        	 if(BeanUtils.isEmpty(smsTemplate)) {	need record operation log.
+HolidayMgtAction	public String updateHoliday()	need record operation log.
+HolidayMgtAction	public String addHolidayGroup()	need record operation log.
+HolidayMgtAction	public String modifySpecialDayForList()	need record operation log.
+HolidayMgtAction	public String updateWeekEnds()	need record operation log.
+HolidayMgtAction	public String deleteRegion()	need record operation log.
+HolidayMgtAction	public void download()	need record operation log.
+HolidayMgtAction	public String downLoadTemplate()	need record operation log.
+HolidayMgtAction	public String upfile()	need record operation log.
+HolidayMgtAction	public String addSpecialDayForList()	need record operation log.
+HolidayMgtAction	public String modifyHolidayGroup()	need record operation log.
+HolidayMgtAction	public String insertRegion()	need record operation log.
+HolidayMgtAction	public String deleteSpecialGroup()	need record operation log.
+HolidayMgtAction	public String deleteSpecialDayForList()	need record operation log.
+SpecialDateTypeMgtAction	public void downloadDateType()	need record operation log.
+SpecialDateTypeMgtAction	public String importFile()	need record operation log.
+SpecialDateTypeMgtAction	public String downLoadTemplate()	need record operation log.
+SysParamAction	public String validateSMSConnection()	need record operation log.
+SysParamAction	public String validateSMSConnection()	         if(!BeanUtils.isEmpty(pMap)) {	need record operation log.
+SysParamAction	public String validateSMSConnection()	                 catch (UnsupportedEncodingException e) {	need record operation log.
+SysParamAction	public String validateSMSConnection()	                 catch (UnsupportedEncodingException e) {	need record operation log.
+SysParamAction	public void saveTsumDelay()	need record operation log.
+SysParamAction	public void updateMotypeArchiveInfo()	need record operation log.
+SysParamAction	public void deleteMotypeArchiveInfo()	need record operation log.
+SysParamAction	public String saveParam()	need record operation log.
+SysParamAction	public String saveParam()	         if (paramValueMap == null) {	need record operation log.
+SysParamAction	public String saveParam()	             catch (Exception e) {	need record operation log.
+SysParamAction	public void createMotypeArchiveInfo()	need record operation log.
+SysParamAction	public void createMotypeArchiveInfo()	        if (BeanUtils.isEmpty(moTypes)){	need record operation log.
+SysParamAction	public String validateMMSConnection()	need record operation log.
+SysParamAction	public String validateMMSConnection()	 catch (WebServiceException e) {	need record operation log.
+SysParamAction	public String validateMMSConnection()	 catch(javax.xml.ws.WebServiceException e){	need record operation log.
+SysParamAction	public void saveTimeSumConfig()	need record operation log.
+SysParamAction	public void deleteTimeSumConfig ()	need record operation log.
+SysParamAction	public void deleteTimeSumConfig ()	        if (StringUtils.isEmpty(periods)) {	need record operation log.
+SysParamAction	public String validateConnection()	need record operation log.
+SysParamAction	public String validateConnection()		             catch (Exception e) {	need record operation log.
+SysParamAction	public void deleteKPIMissRule()	need record operation log.
+SysParamAction	public String validateFTPConnection()	need record operation log.
+SysParamAction	public String validateFTPConnection()	                 catch (UnsupportedEncodingException e) {	need record operation log.
+SysParamAction	public String validateFTPConnection()	                 catch (UnsupportedEncodingException e) {	need record operation log.
+SysParamAction	public String validateFTPConnection()	                 catch (UnsupportedEncodingException e) {	need record operation log.
+SysParamAction	public String validateSFTPConnection()	need record operation log.
+SysParamAction	public String validateSFTPConnection()	                 catch (UnsupportedEncodingException e) {	need record operation log.
+SysParamAction	public String validateSFTPConnection()	                 catch (UnsupportedEncodingException e) {	need record operation log.
+SysParamAction	public String validateSFTPConnection()	                 catch (UnsupportedEncodingException e2) {	need record operation log.
+SysParamAction	public String validateLDAPConnection()	need record operation log.
+SysParamAction	public String validateLDAPConnection()	                 catch (UnsupportedEncodingException e) {	need record operation log.
+SysParamAction	public String validateLDAPConnection()	                 catch (UnsupportedEncodingException e) {	need record operation log.
+SysParamAction	public void saveMissRule()	need record operation log.
+SolutionAction	public String upload()	need record operation log.
+SolutionAction	public String upload()			if(isSuccess){	need record operation log.
+SolutionAction	public String create()	need record operation log.
+SolutionAction	public String create()	         if(isNameExist) {	need record operation log.
+SolutionAction	public String create()	         if(isExist) {	need record operation log.
+SolutionAction	public String create()	    	 if(count > 100000) {	need record operation log.
+SolutionAction	public String create()			if (!StringUtils.isEmpty(errorMessage)) {	need record operation log.
+SolutionAction	public String create()					if (!temp.startsWith("#AcrossPM-Web#uploadpic#")) {	need record operation log.
+SolutionAction	public String delete()	need record operation log.
+TopicAnalysisAction	public String rename()	need record operation log.
+TopicAnalysisAction	public String increase()	need record operation log.
+TopicAnalysisAction	public String delete()	need record operation log.
+TopicAnalysisGroupAction	public String rename()	need record operation log.
+TopicAnalysisGroupAction	public String add()	need record operation log.
+TopicAnalysisGroupAction	public void getTopicTemplistDownloadPath()	need record operation log.
+TopicAnalysisGroupAction	public String topicUploadBkpFiles()				 if(!CheckFileUtil.checkZipUncompressSizeAnEntryCount(topicTemplateFileUpload, 10701096, 100)) {	need record operation log.
+TopicAnalysisGroupAction	public String topicUploadBkpFiles()	             if(null == modelVo4Topic) {	need record operation log.
+TopicAnalysisGroupAction	public String delete()	need record operation log.
+TopicAnalysisGroupAction	public String topicImportTemplateAct()	need record operation log.
+TopicAnalysisGroupAction	public String topicImportTemplateAct()	         if (StringUtils.isEmpty(fileName)) {	need record operation log.
+TopicAnalysisGroupAction	public String topicImportTemplateAct()	         if (!"bpk".equals(fileSuffix.toLowerCase())) {	need record operation log.
+TSStyleTypeAction	public String downCr()	need record operation log.
+TSStyleTypeAction	public String downOperation()	need record operation log.
+AppMappingAction	public void importAppMapping()	need record operation log.
+AppMappingAction	public void importAppMapping()	catch(Exception e){	need record operation log.
+AppMappingAction	public void delAppMapping()	need record operation log.
+AppMappingAction	public void download()	need record operation log.
+AppMappingAction	public void downloadTemplate()	need record operation log.
+ASMappingAction	public void download()	need record operation log.
+ASMappingAction	public String delASMapping()	need record operation log.
+ASMappingAction	public void downloadTemplate()	need record operation log.
+ProMappingAction	public String delProMapping()	need record operation log.
+ProMappingAction	public void download()	need record operation log.
+ProMappingAction	public void downloadTemplate()	need record operation log.
+CapParaXmlAction	public void setName(String name)	need record operation log.
+CapParaXmlAction	public void setValue(String value)	need record operation log.
+CapParaXmlAction	public String getName()	need record operation log.
+CapParaXmlAction	public void setTargetRelatedTable(String targetRelatedTable)	need record operation log.
+CapParaXmlAction	public void setCompareSrcColumn(String compareSrcColumn)	need record operation log.
+CapParaXmlAction	public String getCompareSrcColumn()	need record operation log.
+CapParaXmlAction	public void setType(CapParaXmlActionType type)	need record operation log.
+CapParaXmlAction	public void setTargetTable(String table)	need record operation log.
+CapParaXmlAction	public void setSrcColumn(String srcColumn)	need record operation log.
+CapParaXmlAction	public CapParaXmlActionType getType()	need record operation log.
+CapParaXmlAction	public String getValue()	need record operation log.
+CapParaXmlAction	public String getSrcColumn()	need record operation log.
+CapParaXmlAction	public void setGroupByColumn(String groupByColumn)	need record operation log.
+CapParaXmlAction	public String getTargetRelatedTable()	need record operation log.
+CapParaXmlAction	public String getTargetColumn()	need record operation log.
+CapParaXmlAction	public String getTargetTable()	need record operation log.
+CapParaXmlAction	public String getGroupByColumn()	need record operation log.
+CapParaXmlAction	public void setTargetColumn(String column)	need record operation log.
+AlarmAction	public void isCleared()	need record operation log.
+LoginAction	public void modifyUser()	need record operation log.
+LoginAction	public void getUserInfo()	need record operation log.
+LoginAction	public void getUserInfo()	                     catch (JsonGenerationException e) {	need record operation log.
+LoginAction	public void getUserInfo()	                     catch (JsonMappingException e) {	need record operation log.
+LoginAction	public void login()	need record operation log.
+LoginAction	public String saveForcePwd()	need record operation log.
+LogoutAction	public void logout()	need record operation log.
+AlarmGenerateAction	public void doEditThreshold()	need record operation log.
+AlarmGenerateAction	public void updateThresholdStatus()	need record operation log.
+AlarmGenerateAction	public void updateThresholdStatus()	        	 if(BeanUtils.isEmpty(bean)) {	need record operation log.
+AlarmGenerateAction	public void updateThresholdStatus()	        		 catch(Exception e) {	need record operation log.
+EmailTemplateAction	public void updateEmailTemplate()	need record operation log.
+ServerAction	public void deleteServerConfig()	need record operation log.
+ServerAction	public void doAddServerConfig()	need record operation log.
+ServerAction	public void isExist()	need record operation log.
+ServerAction	public void updateTaskStatus()	need record operation log.
+ServerAction	public void doEditServerConfig()	need record operation log.
+SMSAction	public void updateSms()	need record operation log.
+SMSAction	public void testConnection()	need record operation log.
+SelfMonitorAction	public void updateHeartBeat()	need record operation log.
+NetworkConfigAction	public void doEditConfig()	need record operation log.
+NetworkConfigAction	public void deleteConfig()	need record operation log.
+NetworkConfigAction	public void doAddConfig()	need record operation log.
+NetworkConfigAction	public void validateData()	need record operation log.
+NetWorkQueryAction	public void getInfo()	need record operation log.
+NetWorkQueryAction	public void downloadInfo()	need record operation log.
+SystemAction	public String getSysAbout()	need record operation log.

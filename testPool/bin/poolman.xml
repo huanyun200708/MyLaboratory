@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<poolman>
+	<datasource>
+		<dbname>mydb</dbname>
+		<jndiName>MY_DB</jndiName>
+		<driver>oracle.jdbc.driver.OracleDriver</driver>
+		<url>jdbc:oracle:thin:@127.0.0.1:1521:orcl</url>
+		<username>huangqiDB</username>
+		<password>huangqiDB</password>
+		<showsql>true</showsql>  
+		<poolPreparedStatements>true</poolPreparedStatements>
+		<nativeResults>true</nativeResults>
+		<initialConnections>1</initialConnections>
+		<minimumSize>1</minimumSize>
+		<maximumSize>10</maximumSize>
+		<maximumSoft>false</maximumSoft>
+		<connectionTimeout>300</connectionTimeout>
+		<userTimeout>0</userTimeout>
+		<skimmerFrequency>300</skimmerFrequency>
+		<shrinkBy>10</shrinkBy>
+		<transactionTimeout>100</transactionTimeout>
+		<cacheEnabled>true</cacheEnabled>
+		<cacheSize>100</cacheSize>
+		<cacheRefreshInterval>120</cacheRefreshInterval>
+		<removeOnExceptions>false</removeOnExceptions>
+	</datasource>
+</poolman>
