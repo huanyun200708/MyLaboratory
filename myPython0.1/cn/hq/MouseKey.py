@@ -1,13 +1,16 @@
 '''
-Created on 2016å¹´11æœˆ18æ—¥
+Created on 2016å¹?11æœ?18æ—?
 
 @author: é»„æ·‡
 '''
+from ctypes import *
+import time
+
 import win32api
 import win32con
 import win32gui
-from ctypes import *
-import time
+
+
 VK_CODE = {
  'backspace':0x08,
  'tab':0x09,

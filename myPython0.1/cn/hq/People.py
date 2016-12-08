@@ -1,5 +1,5 @@
 '''
-Created on 2016年11月17日
+Created on 2016�?11�?17�?
 
 @author: 黄淇
 '''
@@ -19,5 +19,5 @@ class People(object):
         self.age = age
     
     def introduceSelf(self):
-            print("我叫%s 我%d岁了" % (self.name, self.age))
+            print("我叫%s �?%d岁了" % (self.name, self.age))
         
