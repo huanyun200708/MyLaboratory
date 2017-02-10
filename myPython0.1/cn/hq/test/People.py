@@ -1,7 +1,7 @@
 '''
-Created on 2016å¹?11æœ?17æ—?
+Created on 2016/11/17
 
-@author: é»„æ·‡
+@author: hq
 '''
 
 class People(object):
@@ -19,5 +19,5 @@ class People(object):
         self.age = age
     
     def introduceSelf(self):
-            print("æˆ‘å«%s æˆ?%då²äº†" % (self.name, self.age))
+            print("I'm %s %d years old" % (self.name, self.age))
         
