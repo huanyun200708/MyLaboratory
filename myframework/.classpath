@@ -19,8 +19,5 @@
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/asm-commons-3.3.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/asm-tree-3.3.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/utils"/>
-	<classpathentry kind="lib" path="/PM-BASE-LIBS/acrosspm_encrypt.jar"/>
-	<classpathentry kind="lib" path="/PM-BASE-LIBS/bcprov-jdk15on-1.52.jar"/>
-	<classpathentry kind="lib" path="/PM-BASE-LIBS/cbb-encrypt-1.0.1-SNAPSHOT.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
