@@ -36,10 +36,6 @@
 
    </filter-mapping>
    
-   <filter>
-		<filter-name>elementValidateFilter</filter-name>
-		<filter-class>cn.com.hq.web.filter.ElementValidateFilter</filter-class>
-	</filter>
 	
 	<filter-mapping>
 		<filter-name>elementValidateFilter</filter-name>

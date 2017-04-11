@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee  
+  http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  
+	 <!-- 定义struts2的核心filter -->
+	<filter>
+	    <filter-name>struts2</filter-name>
+	    <filter-class>
+	        org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter         
+	    </filter-class>
+	    <!-- KEEPING struts2 under this package automatically scan all classes of action category , struts2 annotations must be developed-->
+		<init-param>
+			<param-name>actionPackages</param-name>
+			<param-value>cn.com.hq.action</param-value>
+		</init-param>
+	</filter>
+	<!-- 让struts定义的核心filter拦截所有请求 -->
+	<filter-mapping>
+
+      <filter-name>struts2</filter-name>
+
+      <url-pattern>/*</url-pattern>
+
+      <url-pattern>*.action</url-pattern>
+
+      <url-pattern>*.do</url-pattern>
+
+   </filter-mapping>
+   
+	
+	<!-- 项目欢迎界面 -->
+	<welcome-file-list>
+	    <welcome-file>page/login.jsp</welcome-file>
+	</welcome-file-list>
+	
+ </web-app>

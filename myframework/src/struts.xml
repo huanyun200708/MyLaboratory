@@ -9,7 +9,7 @@
 	<!-- 配置请求后缀 -->
 	<constant name="struts.action.extension" value="do" />
 	<!-- 所有的action都应该放在对应的package下 -->
-	<package name="hq" extends="struts-default">
+	<package name="hq" namespace="/" extends="struts-default">
 		<action name="login" class="cn.com.hq.action.UserLoginAction">
 			<!-- 定义逻辑视图和物理资源之间的映射 -->
 			<result name="input">/login.jsp</result>
@@ -17,7 +17,7 @@
 		</action>
 		<action name="*_login" class="cn.com.hq.action.UserLoginAction" method="{1}">
 		</action>
-			<action name="secureDataTrans" class="cn.com.hq.action.SecureDataTransAction">
+		<action name="secureDataTrans" class="cn.com.hq.action.SecureDataTransAction">
 			<result name="success">/page/secureDataTrans.jsp</result>
 		</action>
 		<action name="*_secureDataTrans" class="cn.com.hq.action.SecureDataTransAction" 
