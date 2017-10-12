@@ -10,8 +10,14 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
+		<buildCommand>
+			<name>com.primeton.bps.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 	</buildSpec>
 	<natures>
+		<nature>com.primeton.bps.nature</nature>
 		<nature>org.python.pydev.pythonNature</nature>
 	</natures>
 </projectDescription>
